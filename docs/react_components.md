@@ -7,6 +7,8 @@
 **AppContainer**
   * Header
   * Navbar
+**TrackFormContainer**
+  * TrackForm
 **TracksIndexContainer**
   * TrackIndex
     * TracksIndexItem
@@ -28,6 +30,7 @@
 | "/"                               | "HomeContainer"            |
 | "/sign-up"                        | "AuthFormContainer"        |
 | "/sign-in"                        | "AuthFormContainer"        |
+| "/new"                            | "TrackFormContainer"
 | "/tracks"                         | "TracksContainer"          |
 | "/tracks/:trackId"                | "TracksContainer"          |
 | "tracks/:trackId/annotations"     | "AnnotationsContainer"     |
