@@ -39,8 +39,8 @@ Decipher is a single-page web application designed with inspiration from [Genius
 ###Phase 6: Styling (1 day)
 **Objective:** Polish website making sure everything looks and works as expected
 ###Bonus Features(TBD)
-  -Tags
-  -Search
-  -Play track through Youtube
-  -User profile
-  -Albums
+  - Tags
+  - Search
+  - Play track through Youtube
+  - User profile
+  - Albums
