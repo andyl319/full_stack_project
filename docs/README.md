@@ -30,11 +30,11 @@ Decipher is a single-page web application designed with inspiration from [Genius
 **Objective:** Functioning rails project with front-end Authentication
 ###Phase 2: Track Model, API, and Components (2 days)
 **Objective:** Tracks can be created, read, and destroyed
-###Phase 3: Annotations (3 days)
+###Phase 3: Annotations (2 days)
 **Objective:** Annotations belong to tracks and can be created, read, edited, or destroyed
-###Phase 4: Comments (2 days)
+###Phase 4: Comments (1 days)
 **Objective:** Comments can belong to tracks or annotations and can be created, read, edited, or destroyed
-###Phase 5: Upvotes (2 days)
+###Phase 5: Upvotes (1 days)
 **Objective:** Each user should have 1 vote(up or down) on an annotation
 ###Phase 6: Styling (1 day)
 **Objective:** Polish website making sure everything looks and works as expected
