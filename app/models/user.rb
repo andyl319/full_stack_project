@@ -9,11 +9,12 @@ class User < ActiveRecord::Base
   before_validation :ensure_session_token_uniqueness
 
   def self.find_by_credentials(username, password)
+    
     user = User.find_by(username: username)
-    if user
-      user.is_password?(password) ? user : nil
+    if user && user.is_password?(password)
+      return user
     end
-    return nil;
+    nil
   end
 
   def is_password?(password)
@@ -42,5 +43,5 @@ class User < ActiveRecord::Base
       self.session_token = SecureRandom.urlsafe_base64(16)
     end
   end
-  
+
 end
