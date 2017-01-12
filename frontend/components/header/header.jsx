@@ -23,32 +23,22 @@ class Header extends React.Component {
     this.props.login({user});
   }
 
-//  sessionLinks = () => (
-//
-// );
 
-// const personalGreeting = (currentUser, logout) => (
-//
-// );
-//
-// const Greeting =({ currentUser, logout }) => (
-//   currentUser ? personalGreeting(currentUser, logout) : sessionLinks()
-// );
   render(){
     let greeting;
     if(this.props.currentUser){
       greeting = (
-        <ul className="user-greeting">
-          <li id="welcome">Welcome, {this.props.currentUser.username}!</li>
-          <li><a className="logout" onClick={ this.handleLogOut }>LOGOUT</a></li>
-        </ul>
+        <nav className="user-greeting">
+          <a id="welcome">Welcome, {this.props.currentUser.username}!</a>
+          <a className="logout" onClick={ this.handleLogOut }>LOGOUT</a>
+        </nav>
       );
     }else {
       greeting = (
         <nav className="login-signup">
           <Link to="/login" activeClassName="current">LOGIN</Link>
           &nbsp;&nbsp;
-          <Link to="/signup" activeClassName="current">SIGNUP!</Link>
+          <Link to="/signup" activeClassName="current">SIGNUP</Link>
           &nbsp;&nbsp;
           <a onClick={ this.handleGuest }>GUEST</a>
         </nav>
@@ -56,7 +46,8 @@ class Header extends React.Component {
     }
 
     return (
-      <div>
+      <div className="header">
+        <h1 className="logo">DECIPHER</h1>
         {greeting}
       </div>
     );
