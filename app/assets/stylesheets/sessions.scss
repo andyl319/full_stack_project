@@ -1,10 +1,104 @@
 // Place all the styles related to the Sessions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
 .login-form-container{
   display: flex;
+  position: relative;
   justify-content: center;
   margin-top: 100px;
-  border-style: solid;
-  border-width: 5px;
+  background-color: #383838;
+  color: #ffff64;
+  max-width: 350px;
+  left: 25%;
+  padding: 50px;
+  min-height: 250px;
+}
+
+.form-head{
+  display: block;
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  font-size: 24px;
+}
+
+.login-form-box{
+  display: block;
+  position: absolute;
+  top: 25%;
+  color: #cccccc
+}
+
+
+.form-close{
+  display: flex;
+  position: absolute;
+  left: 90%;
+  top: 1%;
+  color: #2ab1f9;
+  text-decoration: none;
+}
+
+.form-close:hover{
+  font-size: 14px;
+}
+
+.nav-link{
+  display: block;
+  position: absolute;
+  bottom: 1%;
+  right: 40%;
+}
+
+.link{
+  color: #2ab1f9;
+  text-decoration: none;
+}
+.link:hover{
+    font-size: 14px;
+}
+
+.username{
+  display: block;
+  position: relative;
+  margin: 5px;
+}
+.input{
+  background-color: #565656;
+  border-color: #565656;
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.password{
+  display: block;
+  position: absolute;
+  margin: 5px;
+  bottom: -45%;
+}
+
+
+.submit{
+  display: flex;
+  position: absolute;
+  padding: 10px;
+  font-size: 14px;
+  left: 40%;
+  bottom: -140%;
+  color: #ffff64;
+  background-color: #565656;
+  border-color: #565656;
+  transition: background-color 0.6s;
+  transition: border-color 0.6s;
+  transition: color 0.6s;
+}
+
+.submit:hover{
+  background-color: #3d3d3d;
+  font-weight: bold;
+  color: #2ab1f9;
+  border-width: thin;
+  border-color: #2ab1f9;
 }
