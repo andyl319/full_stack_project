@@ -6,12 +6,20 @@ import SessionContainer from './session/session_container';
 
 
 const Root = ({store}) => {
+
+  const _redirectIfLoggedIn = (nextState, replace) => {
+    const currentUser = store.getState().session.currentUser;
+    if (currentUser) {
+      replace('/');
+    }
+  };
+
   return (
     <Provider store={ store }>
       <Router history={ hashHistory }>
         <Route path="/" component={ App } >
-          <Route path="login" component={ SessionContainer } />
-          <Route path="signup" component={ SessionContainer } />
+          <Route path="login" component={ SessionContainer } onEnter={_redirectIfLoggedIn}/>
+          <Route path="signup" component={ SessionContainer } onEnter={_redirectIfLoggedIn}/>
 
         </Route>
       </Router>

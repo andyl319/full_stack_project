@@ -16,7 +16,7 @@
   font-weight: bold;
   text-decoration: none;
   color: black;
-  right: -40%;
+  right: -45%;
   text-align: left;
   transition: color 0.6s;
 }
@@ -52,4 +52,27 @@
   background-color: black;
   color: #ffff64;
   font-weight: bold;
+}
+
+.navbar{
+  display: flex;
+  background-color: black;
+  padding: 10px;
+  min-width: 100%;
+  justify-content: center;
+  min-height: 17px;
+}
+
+.navbar-link{
+  text-decoration: none;
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-color: #cccccc;
+  color: #cccccc;
+  transition: color 0.6s;
+}
+
+.navbar-link:hover{
+  color: #2ab1f9;
 }
