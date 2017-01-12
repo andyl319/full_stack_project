@@ -17,8 +17,8 @@ class Header extends React.Component {
   handleGuest(e){
     e.preventDefault();
     const user = {
-      username: 'andrew',
-      password: 'password'
+      username: 'guest',
+      password: 'abc123'
     };
     this.props.login({user});
   }
