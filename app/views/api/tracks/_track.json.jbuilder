@@ -1,0 +1,10 @@
+json.extract! track,
+  :id,
+  :user_id,
+  :title,
+  :artist,
+  :album,
+  :description,
+  :lyrics,
+  :cover_art,
+  :youtube_url

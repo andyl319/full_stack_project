@@ -1,0 +1,39 @@
+class Api::SongsController < ApplicationController
+  def index
+    @tracks = Track.all.order(created_at: :asc)
+  end
+
+  def show
+    @track = Track.find(params[:id])
+  end
+
+  # FOR FUTURE IMPLEMENTATION!!!
+  #
+  # def create
+  #   @track = Track.new(track_params)
+  #   @track.user_id = current_user.id
+  #
+  #   if @track.save
+  #     render "api/tracks/show"
+  #   else
+  #     render json: @track.errors.full_messages, status: 422
+  #   end
+  # end
+  #
+  # def destroy
+  #   @track = Track.find(params[:id])
+  #
+  #   if @track.destroy
+  #     render :index
+  #   else
+  #     render json: @track.errors.full_messages, status: 422
+  #   end
+  # end
+  #
+  # private
+  #
+  # def track_params
+  #   params.require(:track).permit(:title, :artist, :album,
+  #     :description, :lyrics, :cover_art, :youtube_url);
+  # end
+end

@@ -36,9 +36,9 @@ class Header extends React.Component {
     }else {
       greeting = (
         <nav className="login-signup">
-          <Link to="/login" activeClassName="current">LOGIN</Link>
+          <Link to="/login">LOGIN</Link>
           &nbsp;&nbsp;
-          <Link to="/signup" activeClassName="current">SIGNUP</Link>
+          <Link to="/signup">SIGNUP</Link>
           &nbsp;&nbsp;
           <a onClick={ this.handleGuest }>GUEST</a>
         </nav>
@@ -46,10 +46,17 @@ class Header extends React.Component {
     }
 
     return (
-      <div className="header">
-        <Link to="/" className="logo">DECIPHER</Link>
-        {greeting}
-      </div>
+      <div>
+        <div className="header">
+          <Link to="/" className="logo">DECIPHER</Link>
+          {greeting}
+        </div>
+        <div className="navbar">
+          <Link className="navbar-link" to="/">HOME</Link>
+          <Link className="navbar-link" to="/">ALL TRACKS</Link>
+        </div>
+    </div>
+
     );
   }
 }
