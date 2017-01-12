@@ -38,38 +38,44 @@ class SessionForm extends React.Component {
         <p>LOG IN TO DECIPHER</p>
       );
       navLink = (
-        <p>Don't have an account? Sign up <Link to="/signup">here</Link></p>
+        <p>Don't have an account? Sign up <Link to="/signup" className="link">here</Link></p>
       );
     }else {
       formHead = (
         <p>SIGN UP TO DECIPHER</p>
       );
       navLink = (
-        <p>Already have an account? Log in <Link to="/login">here</Link></p>
+        <p>Already have an account? Log in <Link to="/login" className="link">here</Link></p>
       );
     }
     return (
       <div className="login-form-container">
         <Link to="/" className= "form-close">[close]</Link>
-        <form onSubmit ={this.handleSubmit} className="login-form-box">
+        <nav className="form-head">
           {formHead}
-          <br/>
-          <label>USERNAME:
+        </nav>
+        <form onSubmit ={this.handleSubmit} className="login-form-box">
+        <br/>
+          <label className="username">USERNAME: &nbsp;&nbsp;
             <input type="text"
+                    className="input"
                     value={this.state.username}
                     onChange={this.update("username")} />
           </label>
-          <br/>
-          <label>PASSWORD:
+        <br/>
+          <label className="password">PASSWORD:&nbsp;&nbsp;
             <input type="password"
+                    className="input"
                     value={this.state.password}
                     onChange={this.update("password")} />
           </label>
-          <br/>
-          <input type="submit" value="SUBMIT" />
-        </form>
         <br/>
-        {navLink}
+          <input className="submit" type="submit" value="SUBMIT" />
+        </form>
+      <br/>
+        <nav className="nav-link">
+          {navLink}
+        </nav>
       </div>
     );
   }

@@ -11,8 +11,17 @@
   display: flex;
   float: left;
   position: relative;
+  font-size: 28px;
+  font-family: fantasy;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
   right: -40%;
   text-align: left;
+  transition: color 0.6s;
+}
+.logo:hover{
+  color: #ffff64;
 }
 
 .user-greeting > a{
@@ -20,12 +29,12 @@
   padding: 20px;
   float: left;
   box-sizing: border-box;
-  transition: background-color 0.5s;
+  transition: background-color 0.6s;
 }
 
 .user-greeting > a:last-child:hover{
   background-color: black;
-  color: #2ab1f9;
+  color: #ffff64;
   font-weight: bold;
 }
 
@@ -35,12 +44,12 @@
   padding: 20px;
   float: right;
   box-sizing: border-box;
-  transition: background-color 0.5s;
+  transition: background-color 0.6s;
   text-decoration: none;
 }
 
 .login-signup > a:hover {
   background-color: black;
-  color: #2ab1f9;
+  color: #ffff64;
   font-weight: bold;
 }
