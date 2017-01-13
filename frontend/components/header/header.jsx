@@ -22,8 +22,7 @@ class Header extends React.Component {
     };
     this.props.login({user});
   }
-
-
+  
   render(){
     let greeting;
     if(this.props.currentUser){
