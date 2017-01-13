@@ -5,7 +5,6 @@ import TrackDisplayContainer from './track/track_display_container';
 const App = ({ children }) => (
   <div>
     <HeaderContainer />
-    <TrackDisplayContainer />
     {children}
   </div>
 );

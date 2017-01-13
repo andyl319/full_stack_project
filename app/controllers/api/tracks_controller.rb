@@ -5,7 +5,8 @@ class Api::TracksController < ApplicationController
   end
 
   def show
-    @track = Track.find(params[:id])
+    sleep 1
+    @track = Track.find_by_id(params[:id])
   end
 
   # FOR FUTURE IMPLEMENTATION!!!
