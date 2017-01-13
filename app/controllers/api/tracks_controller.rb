@@ -1,6 +1,7 @@
-class Api::SongsController < ApplicationController
+class Api::TracksController < ApplicationController
   def index
-    @tracks = Track.all.order(created_at: :asc)
+    sleep 1
+    @tracks = Track.all
   end
 
   def show
