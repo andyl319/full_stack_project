@@ -22,7 +22,7 @@ class Header extends React.Component {
     };
     this.props.login({user});
   }
-  
+
   render(){
     let greeting;
     if(this.props.currentUser){
@@ -52,7 +52,7 @@ class Header extends React.Component {
         </div>
         <div className="navbar">
           <Link className="navbar-link" to="/">HOME</Link>
-          <Link className="navbar-link" to="/">ALL TRACKS</Link>
+          <Link className="navbar-link" to="/all">ALL TRACKS</Link>
         </div>
     </div>
 

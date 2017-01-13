@@ -115,5 +115,50 @@ telegraphAve = Track.create(
     In Oakland, in Oakland
     In Oakland, in Oakland",
   cover_art: "https://images.genius.com/54176aed36cb6114bc46f0b70b8b02b3.1000x1000x1.jpg",
-  youtube_url: "https://www.youtube.com/watch?v=NPQCra8FEew"
+  youtube_url: "https://www.youtube.com/v/NPQCra8FEew"
+)
+
+beings = Track.create(
+  user_id: 2,
+  title: "Beings",
+  artist: "Madeon",
+  album: "Adventure",
+  description: "Beings is the 6'th track on Madeon's debut album
+    entitled 'Adventure'.",
+  lyrics: "[Verse 1]
+These will be times that I will miss
+Don’t blame me if I don’t come through
+I spent a lifetime on this
+But I would give it up for you
+
+[Chorus]
+Because I know what you do out of passion
+But it only makes it harder for me
+And I know that you’re scared by the notion
+We’ll become who we're meant to be
+
+[Verse 2]
+Fall in the hands of a greater unknown
+Let me be there
+And tell me if you need time to prepare
+All we’ll demand is the world
+
+[Chorus]
+Because I know what you do out of passion
+But it only makes it harder for me
+And I know that you’re scared by the notion
+We’ll become who we're meant to be
+
+[Outro]
+Oh what we meant to be
+Oh what we meant to be
+Oh what we meant to be
+Oh what we meant to be
+We’ll become who we're meant to be
+We’ll become who we're meant because I know
+We’ll become who we're meant to be
+We’ll become who we're meant because I know
+We’ll become who we're meant to be",
+  cover_art: "https://images.genius.com/c19df9e79cbdf69a0c00fe8f06598a0a.960x960x1.jpg",
+  youtube_url: "https://www.youtube.com/v/tAhT6kFWkAo"
 )

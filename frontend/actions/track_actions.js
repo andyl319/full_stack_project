@@ -5,12 +5,10 @@ export const RECEIVE_TRACK = 'RECEIVE_TRACK';
 export const REQUEST_TRACK = 'REQUEST_TRACK';
 // export const CREATE_TRACK = 'CREATE_TRACK'; IMPLEMENT LATER
 
-export const receiveAllTracks = (tracks) => {
-  debugger
-  return {
+export const receiveAllTracks = (tracks) => ({
   type: RECEIVE_ALL_TRACKS,
   tracks
-};};
+});
 
 export const requestAllTracks = () => dispatch => (
   APIUtil.fetchAllTracks()
@@ -23,11 +21,13 @@ export const receiveTrack = (track) => ({
   track
 });
 
-export const requestTrack = (track) => dispatch => (
-  APIUtil.requestTrack(track)
-    .then(track => dispatch(receiveTrack(track))
-  )
-);
+export const requestTrack = (id) => dispatch => {
+  APIUtil.fetchTrack(id)
+    .then(track => {
+      dispatch(receiveTrack(track));
+      return track;
+    });
+};
 
 
 // IMPLEMENT LATER!!!
