@@ -1,0 +1,56 @@
+.track-display{
+  display: block;
+  float: left;
+}
+
+.cover-art{
+  position: relative;
+  z-index: -1;
+  max-width: 100%;
+}
+
+.track-display-item{
+  display: block;
+  position: relative;
+  list-style: none;
+  float: left;
+  max-width: 30%;
+  margin-right: 10%;
+}
+
+.track-display-detail{
+  display: block;
+  position: absolute;
+  background-color: black;
+  color: #cccccc;
+  padding: 20px;
+  top: 97%;
+  list-style: none;
+}
+
+.track-display-detail > li{
+  padding-bottom: 15px;
+}
+
+.track-display-id{
+  display: block;
+  position: absolute;
+  background-color: black;
+  font-size: 16px;
+  color: #2ab1f9;
+  float: left;
+  top: 0%;
+  padding: 1%;
+}
+
+.track-display-title{
+  font-size: 26px;
+}
+
+.track-display-artist{
+  font-size: 18px;
+}
+
+.track-display-album{
+  font-size: 14px;
+}
