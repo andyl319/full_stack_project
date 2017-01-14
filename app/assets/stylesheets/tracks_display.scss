@@ -3,6 +3,10 @@
   float: left;
 }
 
+.track-display-list{
+  display: block;
+}
+
 .cover-art{
   position: relative;
   z-index: -1;
@@ -13,9 +17,12 @@
   display: block;
   position: relative;
   list-style: none;
+  max-width: 27.3%;
   float: left;
-  max-width: 30%;
-  margin-right: 10%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 50px;
+  margin-bottom: 250px;
 }
 
 .track-display-detail{
@@ -26,6 +33,7 @@
   padding: 20px;
   top: 97%;
   list-style: none;
+  min-height: 60%;
 }
 
 .track-display-detail > li{

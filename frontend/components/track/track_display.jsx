@@ -12,7 +12,7 @@ class TrackDisplay extends React.Component {
     const {tracks, children} = this.props;
     return (
       <div className="track-display">
-        <ul>
+        <ul className="track-display-list">
           {tracks.map(track => <TrackDisplayItem key={`display-item${track.id}`} track={track} />)}
         </ul>
         {children}
