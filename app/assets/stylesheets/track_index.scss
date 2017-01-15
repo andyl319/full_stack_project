@@ -10,10 +10,11 @@
   list-style: none;
   background-color: black;
   max-width: 97%;
-  padding: 40px 0px 40px 0px;
-  margin-top: 40px;
-  margin-bottom: 30px;
+  padding: 70px 0px 70px 0px;
   border-color: black;
+  border-bottom: solid;
+  border-bottom-width: thin;
+  border-bottom-color: #444444;
   text-decoration: none;
   transition: border-color 0.6s
 }
@@ -22,13 +23,14 @@
   transition: color 0.6s;
   color: #cccccc;
   text-decoration: none;
+
 }
 
 .track-index-id{
   display: block;
   position: absolute;
   font-size: 36px;
-  bottom: 25%;
+  bottom: 35%;
   left: 3%;
 }
 
@@ -36,7 +38,7 @@
   display: block;
   position: absolute;
   max-width: 10%;
-  max-height: 80%;
+  max-height: 75%;
   bottom: 10%;
   left: 10%;
 }
@@ -78,7 +80,7 @@
 
 .track-index-item:hover{
   border-left: solid;
-  border-color: #ffff64;
+  border-left-color: #ffff64;
   .track-index-detail,
     .track-index-album,
       .track-index-description{
