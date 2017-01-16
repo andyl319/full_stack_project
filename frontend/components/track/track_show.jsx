@@ -8,6 +8,7 @@ class TrackShow extends React.Component {
 
   render(){
     const {track, children} = this.props;
+    const lyrics = track.lyrics || "";
     return (
       <div className="track-display">
         <p className="track-show-item">
@@ -17,7 +18,16 @@ class TrackShow extends React.Component {
           <span className="track-show-album">Album: {track.album}</span>
           <span className="track-show-artist">{track.artist}</span>
           <span className="track-show-description">{track.description}</span>
-          <span className="track-show-lyrics">{track.lyrics}</span>
+          <span className="track-show-lyrics">
+            {lyrics.split('<br />').map(function(line) {
+              return (
+                <span>
+                  {line}
+                  <br/>
+                </span>
+              );
+            })}
+          </span>
         </p>
 
         {children}

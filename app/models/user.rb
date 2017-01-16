@@ -8,6 +8,16 @@ class User < ActiveRecord::Base
   after_initialize :ensure_session_token
   before_validation :ensure_session_token_uniqueness
 
+  has_many :tracks,
+    primary_key: :id,
+    foreign_key: :user_id,
+    class_name: 'Track'
+
+  has_many :annotations,
+    primary_key: :id,
+    foreign_key: :author_id,
+    class_name: 'Annotation'
+
   def self.find_by_credentials(username, password)
     user = User.find_by(username: username)
     if user && user.is_password?(password)
