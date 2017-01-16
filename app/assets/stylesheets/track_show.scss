@@ -1,0 +1,72 @@
+.track-display{
+  display: block;
+  position: relative;
+  min-width: 100%;
+}
+.track-show-item{
+  display: block;
+  position: relative;
+  min-width: 100%;
+}
+
+.cover-art{
+  display: block;
+  position: absolute;
+  top: -13px;
+  object-fit: cover;
+  height: 300px;
+  min-width: 100%;
+}
+
+.track-show-title{
+  display: block;
+  position: absolute;
+  color: #2ab1f9;
+  font-size: 50px;
+  top: 50px;
+  left: 50px;
+}
+
+.track-show-artist{
+  display: block;
+  position: absolute;
+  color: white;
+  font-size: 36px;
+  top: 120px;
+  left: 50px;
+}
+
+.track-show-album{
+  display: block;
+  position: absolute;
+  color: #ffff64;
+  font-size: 18px;
+  top: 175px;
+  left: 50px;
+}
+
+.track-show-description{
+  display: block;
+  position: absolute;
+  color: #ffff64;
+  font-size: 18px;
+  top: 220px;
+  left: 50px;
+  max-width: 45%;
+}
+
+.youtube{
+  display: block;
+  position: absolute;
+  left: 700px;
+  top: 70px;
+}
+
+.track-show-lyrics{
+  display: block;
+  position: absolute;
+  max-width: 45%;
+  left: 50px;
+  font-size: 24px;
+  top: 350px
+}

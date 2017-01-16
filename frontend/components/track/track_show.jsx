@@ -11,14 +11,13 @@ class TrackShow extends React.Component {
     return (
       <div className="track-display">
         <p className="track-show-item">
-          <span>{track.id}</span>
           <img src={track.cover_art} alt={track.title} className="cover-art" />
-          <iframe width="420" height="315" src={track.youtube_url}></iframe>
-          <span>{track.title}</span>
-          <span>{track.album}</span>
-          <span>{track.artist}</span>
-          <span>{track.description}</span>
-          <span>{track.lyrics}</span>
+          <iframe className="youtube" width="420" height="315" src={track.youtube_url}></iframe>
+          <span className="track-show-title">{track.title}</span>
+          <span className="track-show-album">Album: {track.album}</span>
+          <span className="track-show-artist">{track.artist}</span>
+          <span className="track-show-description">{track.description}</span>
+          <span className="track-show-lyrics">{track.lyrics}</span>
         </p>
 
         {children}
