@@ -21,98 +21,98 @@ telegraphAve = Track.create(
   album: "Because the Internet",
   description: "Telegraph Ave is the 7'th track on Childish Gambino's
     2'nd studio album title Because the Internet",
-  lyrics: "[Verse 1: Lloyd]\n
-    I was making Japanese\n
-    And she's watching DVDs\n
-    In Oakland, in Oakland\n
-    Now I'm driving up the 5\n
-    And she waits till I arrive\n
-    In Oakland, in Oakland\n
-    Everything, that I wanted\n
-    Only gotta drive for the moment\n
-    If you tell me 'turn around,' then I'm on it\n
-    For the moment, but you know me\n
-    You know how I get when I'm lonely\n
-    And I think about you and the moments\n
-    But everything you do is so Oakland, so Oakland\n\n
+  lyrics: "[Verse 1: Lloyd]<br />
+    I was making Japanese<br />
+    And she's watching DVDs<br />
+    In Oakland, in Oakland<br />
+    Now I'm driving up the 5<br />
+    And she waits till I arrive<br />
+    In Oakland, in Oakland<br />
+    Everything, that I wanted<br />
+    Only gotta drive for the moment<br />
+    If you tell me 'turn around,' then I'm on it<br />
+    For the moment, but you know me<br />
+    You know how I get when I'm lonely<br />
+    And I think about you and the moments<br />
+    But everything you do is so Oakland, so Oakland<br /><br />
 
-    [Hook 1: Lloyd]\n
-    Foot on the gas\n
-    I'm just trying to pass\n
-    All the red lights\n
-    And the stop signs\n
-    I'm ready to go\n
-    Before I get to The Bay\n
-    Babe, that's a problem\n
-    Because I'm way too scared to call\n
-    And you might get me to stay, and oh\n\n
+    [Hook 1: Lloyd]<br />
+    Foot on the gas<br />
+    I'm just trying to pass<br />
+    All the red lights<br />
+    And the stop signs<br />
+    I'm ready to go<br />
+    Before I get to The Bay<br />
+    Babe, that's a problem<br />
+    Because I'm way too scared to call<br />
+    And you might get me to stay, and oh<br /><br />
 
-    [Post-Hook: Childish Gambino and Lloyd]\n
-    I don't really mind the drive\n
-    But I think I'd rather die\n
-    In Oakland, in Oakland\n
-    With my hands on two and ten\n
-    So I guess it all depends\n
-    On Oakland, on Oakland\n
-    And I'm nervous, truth be told\n
-    I never saw me growing old\n
-    In Oakland, in Oakland\n
-    And if I married you tonight\n
-    It would probably start a riot\n
-    In Oakland, in Oakland\n\n
+    [Post-Hook: Childish Gambino and Lloyd]<br />
+    I don't really mind the drive<br />
+    But I think I'd rather die<br />
+    In Oakland, in Oakland<br />
+    With my hands on two and ten<br />
+    So I guess it all depends<br />
+    On Oakland, on Oakland<br />
+    And I'm nervous, truth be told<br />
+    I never saw me growing old<br />
+    In Oakland, in Oakland<br />
+    And if I married you tonight<br />
+    It would probably start a riot<br />
+    In Oakland, in Oakland<br /><br />
 
-    [Verse 2: Lloyd]\n
-    Everything, that I needed\n
-    Now that I got you in your feelings\n
-    Everything you won't say, you tweet it\n
-    And a nigga don’t like that shit at all\n
-    So treated\n
-    Can we just roll with the feeling?\n
-    Can we just roll for a minute?\n
-    Wait a minute\n\n
+    [Verse 2: Lloyd]<br />
+    Everything, that I needed<br />
+    Now that I got you in your feelings<br />
+    Everything you won't say, you tweet it<br />
+    And a nigga don’t like that shit at all<br />
+    So treated<br />
+    Can we just roll with the feeling?<br />
+    Can we just roll for a minute?<br />
+    Wait a minute<br /><br />
 
-    [Hook 2: Lloyd]\n
-    Foot on the gas\n
-    I'm just trying to pass\n
-    All the red lights\n
-    And the stop signs\n
-    I'm ready to go\n
-    But I'm really not ready, girl\n
-    That's a problem\n
-    Cause I'm way too scared to fall\n
-    And I know you choose to stay, and oh\n\n
+    [Hook 2: Lloyd]<br />
+    Foot on the gas<br />
+    I'm just trying to pass<br />
+    All the red lights<br />
+    And the stop signs<br />
+    I'm ready to go<br />
+    But I'm really not ready, girl<br />
+    That's a problem<br />
+    Cause I'm way too scared to fall<br />
+    And I know you choose to stay, and oh<br /><br />
 
-    [Verse 3: Childish Gambino]\n
-    All the girlfriends saying 'here we go again'\n
-    Rich kid but he act like a gentleman\n
-    Last one didn't end like it should've been\n
-    Two dates and he still wanna get it in\n
-    And they're saying it's because of the Internet\n
-    Try her once and it's on to the next chick\n
-    X-O the O face on your exes...right?\n
-    And we can do the same thing if you wanna have at it\n
-    When your thoughts can't breathe and you thinking asthmatic\n
-    And you wanna be a mom and I wasn't mad at it\n
-    I was thinking 'bout me, I'd be really bad at it\n
-    Cause I'm thinking 'bout me, weeks in Dubai\n
-    Fourth of July, house in Kauai, yeah we can try\n
-    So let's try\n\n
+    [Verse 3: Childish Gambino]<br />
+    All the girlfriends saying 'here we go again'<br />
+    Rich kid but he act like a gentleman<br />
+    Last one didn't end like it should've been<br />
+    Two dates and he still wanna get it in<br />
+    And they're saying it's because of the Internet<br />
+    Try her once and it's on to the next chick<br />
+    X-O the O face on your exes...right?<br />
+    And we can do the same thing if you wanna have at it<br />
+    When your thoughts can't breathe and you thinking asthmatic<br />
+    And you wanna be a mom and I wasn't mad at it<br />
+    I was thinking 'bout me, I'd be really bad at it<br />
+    Cause I'm thinking 'bout me, weeks in Dubai<br />
+    Fourth of July, house in Kauai, yeah we can try<br />
+    So let's try<br /><br />
 
-    [Outro: Lloyd]\n
-    Whoa\n
-    I took off my nine to five\n
-    But you still don't have the time to kiss me, just hit me\n
-    And if I left you all alone, would you still pick up the phone?\n
-    It's iffy, you miss me\n
-    I got furniture to move\n
-    And we'll both be thirty soon\n
-    In Oakland, in Oakland\n
-    The only one I know is you, so the fuck I'm supposed to do?\n
-    In Oakland, in Oakland\n
-    In Oakland, in Oakland\n
-    In Oakland, in Oakland\n
-    In Oakland, in Oakland\n
-    In Oakland, in Oakland\n
+    [Outro: Lloyd]<br />
+    Whoa<br />
+    I took off my nine to five<br />
+    But you still don't have the time to kiss me, just hit me<br />
+    And if I left you all alone, would you still pick up the phone?<br />
+    It's iffy, you miss me<br />
+    I got furniture to move<br />
+    And we'll both be thirty soon<br />
+    In Oakland, in Oakland<br />
+    The only one I know is you, so the fuck I'm supposed to do?<br />
+    In Oakland, in Oakland<br />
+    In Oakland, in Oakland<br />
+    In Oakland, in Oakland<br />
+    In Oakland, in Oakland<br />
+    In Oakland, in Oakland<br />
     In Oakland, in Oakland",
   cover_art: "https://images.genius.com/54176aed36cb6114bc46f0b70b8b02b3.1000x1000x1.jpg",
   youtube_url: "https://www.youtube.com/v/NPQCra8FEew"
@@ -125,39 +125,39 @@ beings = Track.create(
   album: "Adventure",
   description: "Beings is the 6'th track on Madeon's debut album
     entitled 'Adventure'.",
-  lyrics: "[Verse 1]
-These will be times that I will miss
-Don’t blame me if I don’t come through
-I spent a lifetime on this
-But I would give it up for you
+  lyrics: "[Verse 1]<br />
+These will be times that I will miss<br />
+Don’t blame me if I don’t come through<br />
+I spent a lifetime on this<br />
+But I would give it up for you<br /><br />
 
-[Chorus]
-Because I know what you do out of passion
-But it only makes it harder for me
-And I know that you’re scared by the notion
-We’ll become who we're meant to be
+[Chorus]<br />
+Because I know what you do out of passion<br />
+But it only makes it harder for me<br />
+And I know that you’re scared by the notion<br />
+We’ll become who we're meant to be<br /><br />
 
-[Verse 2]
-Fall in the hands of a greater unknown
-Let me be there
-And tell me if you need time to prepare
-All we’ll demand is the world
+[Verse 2]<br />
+Fall in the hands of a greater unknown<br />
+Let me be there<br />
+And tell me if you need time to prepare<br />
+All we’ll demand is the world<br /><br />
 
-[Chorus]
-Because I know what you do out of passion
-But it only makes it harder for me
-And I know that you’re scared by the notion
-We’ll become who we're meant to be
+[Chorus]<br />
+Because I know what you do out of passion<br />
+But it only makes it harder for me<br />
+And I know that you’re scared by the notion<br />
+We’ll become who we're meant to be<br /><br />
 
-[Outro]
-Oh what we meant to be
-Oh what we meant to be
-Oh what we meant to be
-Oh what we meant to be
-We’ll become who we're meant to be
-We’ll become who we're meant because I know
-We’ll become who we're meant to be
-We’ll become who we're meant because I know
+[Outro]<br />
+Oh what we meant to be<br />
+Oh what we meant to be<br />
+Oh what we meant to be<br />
+Oh what we meant to be<br />
+We’ll become who we're meant to be<br />
+We’ll become who we're meant because I know<br />
+We’ll become who we're meant to be<br />
+We’ll become who we're meant because I know<br />
 We’ll become who we're meant to be",
   cover_art: "https://images.genius.com/c19df9e79cbdf69a0c00fe8f06598a0a.960x960x1.jpg",
   youtube_url: "https://www.youtube.com/v/tAhT6kFWkAo"
@@ -170,176 +170,73 @@ all_of_me = Track.create(
   album: "Love in the Future",
   description: "“All of Me” is the third single from and sixth
   track on John Legend’s album",
-  lyrics: "[Verse 1]
-What would I do without your smart mouth?
-Drawing me in and you kicking me out
-You got my head spinning, no kidding, I can't pin you down
-What's going on in that beautiful mind?
-I'm on your magical mystery ride
-And I'm so dizzy, don't know what hit me, but I'll be all right
+  lyrics: "[Verse 1]<br />
+What would I do without your smart mouth?<br />
+Drawing me in and you kicking me out<br />
+You got my head spinning, no kidding, I can't pin you down<br />
+What's going on in that beautiful mind?<br />
+I'm on your magical mystery ride<br />
+And I'm so dizzy, don't know what hit me, but I'll be all right<br /><br />
 
-[Pre-Hook]
-My head's under water but I’m breathing fine
-You're crazy and I'm out of my mind
+[Pre-Hook]<br />
+My head's under water but I’m breathing fine<br />
+You're crazy and I'm out of my mind<br /><br />
 
-[Hook]
-Cause all of me loves all of you
-Love your curves and all your edges
-All your perfect imperfections
-Give your all to me
-I'll give my all to you
-You're my end and my beginning
-Even when I lose, I’m winning
-Cause I give you all of me
-And you give me all of you
+[Hook]<br />
+Cause all of me loves all of you<br />
+Love your curves and all your edges<br />
+All your perfect imperfections<br />
+Give your all to me<br />
+I'll give my all to you<br />
+You're my end and my beginning<br />
+Even when I lose, I’m winning<br />
+Cause I give you all of me<br />
+And you give me all of you<br /><br />
 
-[Verse 2]
-How many times do I have to tell you?
-Even when you're crying, you're beautiful too
-The world is beating you down, I’m around
-Through every mood
-You're my downfall, you're my muse
-My worst distraction, my rhythm and blues
-I can't stop singing, it's ringing in my head for you
+[Verse 2]<br />
+How many times do I have to tell you?<br />
+Even when you're crying, you're beautiful too<br />
+The world is beating you down, I’m around<br />
+Through every mood<br />
+You're my downfall, you're my muse<br />
+My worst distraction, my rhythm and blues<br />
+I can't stop singing, it's ringing in my head for you<br /><br />
 
-[Pre-Hook]
-My head's under water but I’m breathing fine
-You're crazy and I'm out of my mind
+[Pre-Hook]<br />
+My head's under water but I’m breathing fine<br />
+You're crazy and I'm out of my mind<br /><br />
 
-[Hook]
-Cause all of me loves all of you
-Love your curves and all your edges
-All your perfect imperfections
-Give your all to me
-I'll give my all to you
-You're my end and my beginning
-Even when I lose, I’m winning
-Cause I give you all of me
-And you give me all of you
+[Hook]<br />
+Cause all of me loves all of you<br />
+Love your curves and all your edges<br />
+All your perfect imperfections<br />
+Give your all to me<br />
+I'll give my all to you<br />
+You're my end and my beginning<br />
+Even when I lose, I’m winning<br />
+Cause I give you all of me<br />
+And you give me all of you<br /><br />
 
-[Bridge]
-Cards on the table, we're both showing hearts
-Risking it all, though it’s hard
+[Bridge]<br />
+Cards on the table, we're both showing hearts<br />
+Risking it all, though it’s hard<br /><br />
 
-[Hook]
-Cause all of me loves all of you
-Love your curves and all your edges
-All your perfect imperfections
-Give your all to me
-I'll give my all to you
-You're my end and my beginning
-Even when I lose, I’m winning
-Cause I give you all of me
-And you give me all of you
+[Hook]<br />
+Cause all of me loves all of you<br />
+Love your curves and all your edges<br />
+All your perfect imperfections<br />
+Give your all to me<br />
+I'll give my all to you<br />
+You're my end and my beginning<br />
+Even when I lose, I’m winning<br />
+Cause I give you all of me<br />
+And you give me all of you<br /><br />
 
-[Outro]
-I give you all of me
+[Outro]<br />
+I give you all of me<br />
 And you give me all of you",
   cover_art: "http://images.genius.com/e95068be211e9b806bba3f57a14c7100.1000x994x1.jpg",
   youtube_url: "https://www.youtube.com/watch?v=450p7goxZqg"
-)
-
-black_friday = Track.create(
-  user_id: 3,
-  title: "Black Friday",
-  artist: "Kendrick Lamar",
-  album: "Single",
-  description: "Black Friday is a freestyle by Kendrick Lamar
-  over J-Cole's 'A Tale of Two Citiez'",
-  lyrics: "[Intro]
-Dick hard like Rottweiler
-Can you handle it? Can you handle it? Woo woo, woo woo
-
-[Verse]
-The whole industry been in shambles
-Everybody fugazi, I’m just changing the channel
-Kendrick Lamar, the people’s champion, I'm animal for analysts
-Career damaging verses, meditating with candles lit
-I like my raps extra prolific
-Since freestyling on lunch tables and park benches
-And I won’t mention my ten thousand hours in training
-While juggling gang-banging, my balancing was tremendous
-And now we look at the competition as quick submission
-They tappin’ out before we even get a chance to miss ‘em
-What this about, is it money or skill?
-Maybe it’s both and I got large amounts of it, it’s real
-You see my oath is very unbreakable, my style is never mistakable
-I can see y’all incapable
-To be the God emcees, you know me well
-Ridiculous, venomous, hate in my heart, the sinister
-Run for cover, my lineage prove itself
-I’m rollin’ deep in that paper like two Adeles
-Before scholars, I flowed tighter than virgin lips
-We had to shake the game up and you're flying through turbulence
-Everything is high stakes nowadays, that’s how it played nowadays
-It’s like an 8-ball to the face nowadays
-I'm laced nowadays, my gun is off the waist nowadays
-It’s seven figures and retainer for the case nowadays, I'm talking
-Hiiigher power, every other hour since Eddie Bauer
-Since stash boxes and lead showers, breaking the padlock
-And the dead coward dying a thousand deaths, entire lion
-Surround itself with bears, watch it nigga, you share a profit, ah!
-This is what they want, I’m the one
-This is vintage from nineteen-eighty-somethin'
-I’m the son of the pioneer that got you near the sun
-Play with him, bitch you better off voting for Donald Trump
-I’m yelling Mr. Kanye West for president
-He probably let me get some head inside the residence
-I’m in the White House going all out
-Bumping College Dropout, God-bless Americans
-Nothing more influential than rap music
-I merge jazz fusion with the trap music
-I mix black soul with some rock and roll
-They never box me in, I’m David Blaine-ing all you hoes
-Oh yea, let’s go there, my DNA is DMT, I’m so rare
-My Juvenile was wilder than the Nolia
-A locomotive couldn’t track me down in my career
-Runnin’ this shit with four pair, son of my bitch, I might demolish
-A bitch right in front ya, chico, what have you done here?
-D-Bo, all of it one year, Mississippi to California
-It gets annoying, niggas wanna deploy him
-And bitches wanna adore him, but industry shit ain’t for him
-Probably thinking it’s for him, only one me
-Swallowed the key and kicking the door in, never leasing my foreign
-Mr. Valevictorian studied the game before them
-Listen to you with boredom, baby rappers, abort them
-To the grave I deport them, corporations extort them
-I’m snapping off my endorphins, I alien mighty morphin’
-My radiance rather gorgeous, hundred bill to the doorman
-Hundred mil in my fortune, they call me back in the morning
-You're racing against the tortoise, pace myself it’s important
-Lace myself with the wisdom my playerism enormous
-So pay the man for performance, saucy all of my garments
-Jimi Kendrix performing, this fucking studio haunted (Ah!)
-I tell a bitch don’t sweat me (Don't sweat me)
-I kill this whole fuckin’ beat if Cole let me (Please Cole)
-Ib should’ve never sent the instrumental
-Every time I start writing I get sentimental
-This shit is just not fair
-But why the fuck should I care?
-The story of your life here
-Two young stars was born and y’all gon’ die here
-Oh Lord, gotta be the yams
-Billboard list need 2Pac, damn
-But number 9 makes sure he lives on, yeah
-Hoochie, coochie, pussies in a trance
-Every day a celebration, but even the valley peaking me
-Is not validation, nigga this TDE
-And my doggies be salivating, salaries, better ratings
-And casualties all around me, don’t make me do demonstrations
-Whoa
-Murder my allegations and burning my finger traces
-Adjourning my power patience and earning royalty payments
-I’m sorry y’all not relating, this party is reservated
-I kill this whole muthafucking beat if J. Cole say it
-My nigga Ib chopped the instrumental, I gotta slay it
-I gotta lay it, gotta show you fuckers I’m not to play with
-The ruckus had been my favorite, King Kunta the fuckin’ greatest
-Whoa
-Burnin’ my leather-
-(Nah I’m just fuckin’ wit cha)",
-  cover_art: "https://i1.sndcdn.com/artworks-000137574089-z7bzqf-t500x500.jpg",
-  youtube_url: "https://www.youtube.com/v/tAhT6kFWkAo"
 )
 
 good_morning = Track.create(
@@ -349,72 +246,233 @@ good_morning = Track.create(
   album: "Graduation",
   description: "Good Morning was the first track off Kanye West's
   3'rd album entitled 'Graduation'.",
-  lyrics: "[Intro]
-Uhh.. uhh
-Uhh.. uhh
-Good morning!
-Good morning!
-Good morning!
-Good morning!
+  lyrics: "[Intro]<br />
+Uhh.. uhh<br />
+Uhh.. uhh<br />
+Good morning!<br />
+Good morning!<br />
+Good morning!<br />
+Good morning!<br /><br />
 
-[Verse 1]
-Wake up Mr. West, Mr. West
-Mr. Fresh, Mister, by himself he's so impressed
-I mean damn, did you even see the test?
-You got D's, muthafucka D's, Rosie Perez
-And yer ass barely passed any and every class
-Looking at every ass, cheated on every test
-I guess, this is my dissertation
-Homie this shit is basic, welcome to Graduation
+[Verse 1]<br />
+Wake up Mr. West, Mr. West<br />
+Mr. Fresh, Mister, by himself he's so impressed<br />
+I mean damn, did you even see the test?<br />
+You got D's, muthafucka D's, Rosie Perez<br />
+And yer ass barely passed any and every class<br />
+Looking at every ass, cheated on every test<br />
+I guess, this is my dissertation<br />
+Homie this shit is basic, welcome to Graduation<br /><br />
 
-[Hook]
-Good morning!
-Good morning!
-Good morning!
-Good morning!
+[Hook]<br />
+Good morning!<br />
+Good morning!<br />
+Good morning!<br />
+Good morning!<br /><br />
 
-[Verse 2]
-Good morning, on this day we become legendary
-Everything we dreamed of
-I'm like the fly Malcolm X, buy any jeans necessary
-Detroit Red cleaned up
-From the streets to the league, from an eighth to a key
-But you graduate when you make it up outta the streets
-From the moments of pain, look how far we done came
-Haters saying you changed, now you doing your thang
+[Verse 2]<br />
+Good morning, on this day we become legendary<br />
+Everything we dreamed of<br />
+I'm like the fly Malcolm X, buy any jeans necessary<br />
+Detroit Red cleaned up<br />
+From the streets to the league, from an eighth to a key<br />
+But you graduate when you make it up outta the streets<br />
+From the moments of pain, look how far we done came<br />
+Haters saying you changed, now you doing your thang<br /><br />
 
-[Hook]
-Good morning!
-Good morning!
-Good morning!
-Good morning!
+[Hook]<br />
+Good morning!<br />
+Good morning!<br />
+Good morning!<br />
+Good morning!<br /><br />
 
-[Verse 3]
-Good morning, look at the valedictorian
-Scared of the future while I hop in the DeLorean
-Scared to face the world, complacent career student
-Some people graduate, but be still stupid
-They tell you read this, eat this, don't look around
-Just peep this, preachers, teach us, Jesus
-Okay look up now, they done stole yo' streetness
-After all of that you received this
+[Verse 3]<br />
+Good morning, look at the valedictorian<br />
+Scared of the future while I hop in the DeLorean<br />
+Scared to face the world, complacent career student<br />
+Some people graduate, but be still stupid<br />
+They tell you read this, eat this, don't look around<br />
+Just peep this, preachers, teach us, Jesus<br />
+Okay look up now, they done stole yo' streetness<br />
+After all of that you received this<br /><br />
 
-[Outro]
-Good morning!
-(Hustlers that's if you're still living, get on down)
-Every time that we hear them
-Good morning!
-Hustlers that's if you're still living, get on down
-Every time that we hear them
-Good morning!
-Hustlers that's if you're still living, get on down
-Every time that we hear them
-Good morning!
-Hustlers that's if you're still living, get on down
-Get on down
-Get, get on down
-Get on down
+[Outro]<br />
+Good morning!<br />
+(Hustlers that's if you're still living, get on down)<br />
+Every time that we hear them<br />
+Good morning!<br />
+Hustlers that's if you're still living, get on down<br />
+Every time that we hear them<br />
+Good morning!<br />
+Hustlers that's if you're still living, get on down<br />
+Every time that we hear them<br />
+Good morning!<br />
+Hustlers that's if you're still living, get on down<br />
+Get on down<br />
+Get, get on down<br />
+Get on down<br />
 Get, get on down",
   cover_art: "http://images.genius.com/ba625221903afea7b1856226a3b03cfe.1000x1000x1.jpg",
+  youtube_url: "https://www.youtube.com/v/tAhT6kFWkAo"
+)
+
+purpose = Track.create(
+  user_id: 2,
+  title: "Purpose",
+  artist: "Justin Bieber",
+  album: "Purpose",
+  description: "Purpose is the 13'th track on Justin Bieber's album
+  entitled with the same name. It deals with his new found purpose
+  and sends a message of appreciation to his fans.",
+  lyrics: "[Verse 1]<br />
+Feeling like I'm breathing my last breath<br />
+Feeling like I'm walking my last steps<br />
+Look at all of these tears I've wept<br />
+Look at all the promises that I've kept<br /><br />
+
+[Pre-Chorus]<br />
+I put my all into your hands<br />
+Here's my soul to keep<br />
+I let you in with all that I can<br />
+You're not hard to reach<br /><br />
+
+[Chorus]<br />
+And you bless me with the best gift<br />
+That I've ever known<br />
+You give me purpose<br />
+Yeah, you've given me purpose<br /><br />
+
+[Verse 2]<br />
+Thinking my journey's come to an end<br />
+Sending out a farewell to my friends, for inner peace<br />
+Ask you to forgive me for my sins, oh would you please?<br />
+I'm more than grateful for the time we spent, my spirit's at ease<br /><br />
+
+[Pre-Chorus]<br />
+I put my heart into your hands<br />
+Learn the lessons you teach<br />
+No matter when, wherever I am<br />
+You're not hard to reach<br /><br />
+
+[Chorus]<br />
+And you've given me the best gift<br />
+That I've ever known<br />
+You give me purpose everyday<br />
+You give me purpose in every way<br /><br />
+
+[Bridge]<br />
+Oh, you are my everything<br />
+Oh, you are my everything<br /><br />
+
+[Outro (Spoken)]<br />
+I don’t know if this is wrong, because someone else is telling me that it’s wrong. But I feel this so let me just like try my best not to let this happen again. We weren’t necessarily put in the best position to make the best decisions<br />
+
+You can’t be hard on yourself for it, these are the cards you were given so you have to understand that’s not who you are. You know you’re trying to be the best you can be, but that’s all you can do. If you don’t give it all you got, you’re only cheating yourself give it all you got but if it ends up happening, it ends up happening<br />
+
+That’s what happening with me, it’s like “God, I’m giving it all I’ve got, sometimes I’m weak and I’m going to do it.” And it’s like I’m not giving myself grace, I’m just like understanding that’s how it is",
+  cover_art: "http://images.genius.com/626766c70d96b981e035d97af83e3516.1000x1000x1.jpg",
+  youtube_url: "https://www.youtube.com/watch?v=Ca1i6DZC3iY"
+)
+
+black_friday = Track.create(
+  user_id: 3,
+  title: "Black Friday",
+  artist: "Kendrick Lamar",
+  album: "Single",
+  description: "Black Friday is a freestyle by Kendrick Lamar
+  over J-Cole's 'A Tale of Two Citiez'",
+  lyrics: "[Intro]<br />
+Dick hard like Rottweiler<br />
+Can you handle it? Can you handle it? Woo woo, woo woo<br /><br />
+
+[Verse]<br />
+The whole industry been in shambles<br />
+Everybody fugazi, I’m just changing the channel<br />
+Kendrick Lamar, the people’s champion, I'm animal for analysts<br />
+Career damaging verses, meditating with candles lit<br />
+I like my raps extra prolific<br />
+Since freestyling on lunch tables and park benches<br />
+And I won’t mention my ten thousand hours in training<br />
+While juggling gang-banging, my balancing was tremendous<br />
+And now we look at the competition as quick submission<br />
+They tappin’ out before we even get a chance to miss ‘em<br />
+What this about, is it money or skill?<br />
+Maybe it’s both and I got large amounts of it, it’s real<br />
+You see my oath is very unbreakable, my style is never mistakable<br />
+I can see y’all incapable<br />
+To be the God emcees, you know me well<br />
+Ridiculous, venomous, hate in my heart, the sinister<br />
+Run for cover, my lineage prove itself<br />
+I’m rollin’ deep in that paper like two Adeles<br />
+Before scholars, I flowed tighter than virgin lips<br />
+We had to shake the game up and you're flying through turbulence<br />
+Everything is high stakes nowadays, that’s how it played nowadays<br />
+It’s like an 8-ball to the face nowadays<br />
+I'm laced nowadays, my gun is off the waist nowadays<br />
+It’s seven figures and retainer for the case nowadays, I'm talking<br />
+Hiiigher power, every other hour since Eddie Bauer<br />
+Since stash boxes and lead showers, breaking the padlock<br />
+And the dead coward dying a thousand deaths, entire lion<br />
+Surround itself with bears, watch it nigga, you share a profit, ah!<br />
+This is what they want, I’m the one<br />
+This is vintage from nineteen-eighty-somethin'<br />
+I’m the son of the pioneer that got you near the sun<br />
+Play with him, bitch you better off voting for Donald Trump<br />
+I’m yelling Mr. Kanye West for president<br />
+He probably let me get some head inside the residence<br />
+I’m in the White House going all out<br />
+Bumping College Dropout, God-bless Americans<br />
+Nothing more influential than rap music<br />
+I merge jazz fusion with the trap music<br />
+I mix black soul with some rock and roll<br />
+They never box me in, I’m David Blaine-ing all you hoes<br />
+Oh yea, let’s go there, my DNA is DMT, I’m so rare<br />
+My Juvenile was wilder than the Nolia<br />
+A locomotive couldn’t track me down in my career<br />
+Runnin’ this shit with four pair, son of my bitch, I might demolish<br />
+A bitch right in front ya, chico, what have you done here?<br />
+D-Bo, all of it one year, Mississippi to California<br />
+It gets annoying, niggas wanna deploy him<br />
+And bitches wanna adore him, but industry shit ain’t for him<br />
+Probably thinking it’s for him, only one me<br />
+Swallowed the key and kicking the door in, never leasing my foreign<br />
+Mr. Valevictorian studied the game before them<br />
+Listen to you with boredom, baby rappers, abort them<br />
+To the grave I deport them, corporations extort them<br />
+I’m snapping off my endorphins, I alien mighty morphin’<br />
+My radiance rather gorgeous, hundred bill to the doorman<br />
+Hundred mil in my fortune, they call me back in the morning<br />
+You're racing against the tortoise, pace myself it’s important<br />
+Lace myself with the wisdom my playerism enormous<br />
+So pay the man for performance, saucy all of my garments<br />
+Jimi Kendrix performing, this fucking studio haunted (Ah!)<br />
+I tell a bitch don’t sweat me (Don't sweat me)<br />
+I kill this whole fuckin’ beat if Cole let me (Please Cole)<br />
+Ib should’ve never sent the instrumental<br />
+Every time I start writing I get sentimental<br />
+This shit is just not fair<br />
+But why the fuck should I care?<br />
+The story of your life here<br />
+Two young stars was born and y’all gon’ die here<br />
+Oh Lord, gotta be the yams<br />
+Billboard list need 2Pac, damn<br />
+But number 9 makes sure he lives on, yeah<br />
+Hoochie, coochie, pussies in a trance<br />
+Every day a celebration, but even the valley peaking me<br />
+Is not validation, nigga this TDE<br />
+And my doggies be salivating, salaries, better ratings<br />
+And casualties all around me, don’t make me do demonstrations<br />
+Whoa<br />
+Murder my allegations and burning my finger traces<br />
+Adjourning my power patience and earning royalty payments<br />
+I’m sorry y’all not relating, this party is reservated<br />
+I kill this whole muthafucking beat if J. Cole say it<br />
+My nigga Ib chopped the instrumental, I gotta slay it<br />
+I gotta lay it, gotta show you fuckers I’m not to play with<br />
+The ruckus had been my favorite, King Kunta the fuckin’ greatest<br />
+Whoa<br />
+Burnin’ my leather-<br />
+(Nah I’m just fuckin’ wit cha)",
+  cover_art: "https://i1.sndcdn.com/artworks-000137574089-z7bzqf-t500x500.jpg",
   youtube_url: "https://www.youtube.com/v/tAhT6kFWkAo"
 )
