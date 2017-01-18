@@ -381,43 +381,43 @@ black_friday = Track.create(
   album: "Ghost Stories",
   description: "A Sky Full of Stars was the third single off Coldplay's
   album entitled 'Ghost Stories'",
-  lyrics: "[Verse 1]
-Cause you're a sky
-Cause you're a sky full of stars
-I'm gonna give you my heart
-Cause you're a sky
-Cause you're a sky full of stars
-Cause you light up the path
+  lyrics: "[Verse 1]<br />
+Cause you're a sky<br />
+Cause you're a sky full of stars<br />
+I'm gonna give you my heart<br />
+Cause you're a sky<br />
+Cause you're a sky full of stars<br />
+Cause you light up the path<br /><br />
 
-[Hook]
-I don't care
-Go on and tear me apart
-I don't care if you do, ooh
-Cause in a sky
-Cause in a sky full of stars
-I think I saw you
+[Hook]<br />
+I don't care<br />
+Go on and tear me apart<br />
+I don't care if you do, ooh<br />
+Cause in a sky<br />
+Cause in a sky full of stars<br />
+I think I saw you<br /><br />
 
-[Verse 2]
-Cause you're a sky
-Cause you're a sky full of stars
-I want to die in your arms, oh
-Cause you get lighter
-The more it gets dark
-I'm gonna give you my heart, oh
+[Verse 2]<br />
+Cause you're a sky<br />
+Cause you're a sky full of stars<br />
+I want to die in your arms, oh<br />
+Cause you get lighter<br />
+The more it gets dark<br />
+I'm gonna give you my heart, oh<br /><br />
 
-[Hook]
-And I don't care
-Go on and tear me apart
-And I don't care if you do, ooh
-Cause in a sky
-Cause in a sky full of stars
-I think I see you
-I think I see you
+[Hook]<br />
+And I don't care<br />
+Go on and tear me apart<br />
+And I don't care if you do, ooh<br />
+Cause in a sky<br />
+Cause in a sky full of stars<br />
+I think I see you<br />
+I think I see you<br /><br />
 
-[Outro]
-So sky
-You're a sky full of stars
-Such heavenly view
+[Outro]<br />
+So sky<br />
+You're a sky full of stars<br />
+Such heavenly view<br />
 You're such a heavenly view (yeah, yeah, yeah, yeah)",
   cover_art: "https://images.genius.com/bed060b37dec8fa4eee79aad0784076e.1000x1000x1.jpg",
   youtube_url: "https://www.youtube.com/watch?v=VPRjCeoBqrI"
