@@ -107,7 +107,7 @@ telegraphAve = Track.create(
     I got furniture to move<br />
     And we'll both be thirty soon<br />
     In Oakland, in Oakland<br />
-    The only one I know is you, so the fuck I'm supposed to do?<br />
+    The only one I know is you, so the f*** I'm supposed to do?<br />
     In Oakland, in Oakland<br />
     In Oakland, in Oakland<br />
     In Oakland, in Oakland<br />
@@ -258,11 +258,11 @@ Good morning!<br /><br />
 Wake up Mr. West, Mr. West<br />
 Mr. Fresh, Mister, by himself he's so impressed<br />
 I mean damn, did you even see the test?<br />
-You got D's, muthafucka D's, Rosie Perez<br />
-And yer ass barely passed any and every class<br />
-Looking at every ass, cheated on every test<br />
+You got D's, muthaf**** D's, Rosie Perez<br />
+And yer a** barely passed any and every class<br />
+Looking at every a**, cheated on every test<br />
 I guess, this is my dissertation<br />
-Homie this shit is basic, welcome to Graduation<br /><br />
+Homie this s*** is basic, welcome to Graduation<br /><br />
 
 [Hook]<br />
 Good morning!<br />
@@ -376,103 +376,49 @@ That’s what happening with me, it’s like “God, I’m giving it all I’ve 
 
 black_friday = Track.create(
   user_id: 3,
-  title: "Black Friday",
-  artist: "Kendrick Lamar",
-  album: "Single",
-  description: "Black Friday is a freestyle by Kendrick Lamar
-  over J-Cole's 'A Tale of Two Citiez'",
-  lyrics: "[Intro]<br />
-Dick hard like Rottweiler<br />
-Can you handle it? Can you handle it? Woo woo, woo woo<br /><br />
+  title: "A Sky Full of Stars",
+  artist: "Coldplay",
+  album: "Ghost Stories",
+  description: "A Sky Full of Stars was the third single off Coldplay's
+  album entitled 'Ghost Stories'",
+  lyrics: "[Verse 1]
+Cause you're a sky
+Cause you're a sky full of stars
+I'm gonna give you my heart
+Cause you're a sky
+Cause you're a sky full of stars
+Cause you light up the path
 
-[Verse]<br />
-The whole industry been in shambles<br />
-Everybody fugazi, I’m just changing the channel<br />
-Kendrick Lamar, the people’s champion, I'm animal for analysts<br />
-Career damaging verses, meditating with candles lit<br />
-I like my raps extra prolific<br />
-Since freestyling on lunch tables and park benches<br />
-And I won’t mention my ten thousand hours in training<br />
-While juggling gang-banging, my balancing was tremendous<br />
-And now we look at the competition as quick submission<br />
-They tappin’ out before we even get a chance to miss ‘em<br />
-What this about, is it money or skill?<br />
-Maybe it’s both and I got large amounts of it, it’s real<br />
-You see my oath is very unbreakable, my style is never mistakable<br />
-I can see y’all incapable<br />
-To be the God emcees, you know me well<br />
-Ridiculous, venomous, hate in my heart, the sinister<br />
-Run for cover, my lineage prove itself<br />
-I’m rollin’ deep in that paper like two Adeles<br />
-Before scholars, I flowed tighter than virgin lips<br />
-We had to shake the game up and you're flying through turbulence<br />
-Everything is high stakes nowadays, that’s how it played nowadays<br />
-It’s like an 8-ball to the face nowadays<br />
-I'm laced nowadays, my gun is off the waist nowadays<br />
-It’s seven figures and retainer for the case nowadays, I'm talking<br />
-Hiiigher power, every other hour since Eddie Bauer<br />
-Since stash boxes and lead showers, breaking the padlock<br />
-And the dead coward dying a thousand deaths, entire lion<br />
-Surround itself with bears, watch it nigga, you share a profit, ah!<br />
-This is what they want, I’m the one<br />
-This is vintage from nineteen-eighty-somethin'<br />
-I’m the son of the pioneer that got you near the sun<br />
-Play with him, bitch you better off voting for Donald Trump<br />
-I’m yelling Mr. Kanye West for president<br />
-He probably let me get some head inside the residence<br />
-I’m in the White House going all out<br />
-Bumping College Dropout, God-bless Americans<br />
-Nothing more influential than rap music<br />
-I merge jazz fusion with the trap music<br />
-I mix black soul with some rock and roll<br />
-They never box me in, I’m David Blaine-ing all you hoes<br />
-Oh yea, let’s go there, my DNA is DMT, I’m so rare<br />
-My Juvenile was wilder than the Nolia<br />
-A locomotive couldn’t track me down in my career<br />
-Runnin’ this shit with four pair, son of my bitch, I might demolish<br />
-A bitch right in front ya, chico, what have you done here?<br />
-D-Bo, all of it one year, Mississippi to California<br />
-It gets annoying, niggas wanna deploy him<br />
-And bitches wanna adore him, but industry shit ain’t for him<br />
-Probably thinking it’s for him, only one me<br />
-Swallowed the key and kicking the door in, never leasing my foreign<br />
-Mr. Valevictorian studied the game before them<br />
-Listen to you with boredom, baby rappers, abort them<br />
-To the grave I deport them, corporations extort them<br />
-I’m snapping off my endorphins, I alien mighty morphin’<br />
-My radiance rather gorgeous, hundred bill to the doorman<br />
-Hundred mil in my fortune, they call me back in the morning<br />
-You're racing against the tortoise, pace myself it’s important<br />
-Lace myself with the wisdom my playerism enormous<br />
-So pay the man for performance, saucy all of my garments<br />
-Jimi Kendrix performing, this fucking studio haunted (Ah!)<br />
-I tell a bitch don’t sweat me (Don't sweat me)<br />
-I kill this whole fuckin’ beat if Cole let me (Please Cole)<br />
-Ib should’ve never sent the instrumental<br />
-Every time I start writing I get sentimental<br />
-This shit is just not fair<br />
-But why the fuck should I care?<br />
-The story of your life here<br />
-Two young stars was born and y’all gon’ die here<br />
-Oh Lord, gotta be the yams<br />
-Billboard list need 2Pac, damn<br />
-But number 9 makes sure he lives on, yeah<br />
-Hoochie, coochie, pussies in a trance<br />
-Every day a celebration, but even the valley peaking me<br />
-Is not validation, nigga this TDE<br />
-And my doggies be salivating, salaries, better ratings<br />
-And casualties all around me, don’t make me do demonstrations<br />
-Whoa<br />
-Murder my allegations and burning my finger traces<br />
-Adjourning my power patience and earning royalty payments<br />
-I’m sorry y’all not relating, this party is reservated<br />
-I kill this whole muthafucking beat if J. Cole say it<br />
-My nigga Ib chopped the instrumental, I gotta slay it<br />
-I gotta lay it, gotta show you fuckers I’m not to play with<br />
-The ruckus had been my favorite, King Kunta the fuckin’ greatest<br />
-Whoa<br />
-Burnin’ my leather-<br />
-(Nah I’m just fuckin’ wit cha)",
-  cover_art: "https://i1.sndcdn.com/artworks-000137574089-z7bzqf-t500x500.jpg",
-  youtube_url: "https://www.youtube.com/v/tAhT6kFWkAo"
+[Hook]
+I don't care
+Go on and tear me apart
+I don't care if you do, ooh
+Cause in a sky
+Cause in a sky full of stars
+I think I saw you
+
+[Verse 2]
+Cause you're a sky
+Cause you're a sky full of stars
+I want to die in your arms, oh
+Cause you get lighter
+The more it gets dark
+I'm gonna give you my heart, oh
+
+[Hook]
+And I don't care
+Go on and tear me apart
+And I don't care if you do, ooh
+Cause in a sky
+Cause in a sky full of stars
+I think I see you
+I think I see you
+
+[Outro]
+So sky
+You're a sky full of stars
+Such heavenly view
+You're such a heavenly view (yeah, yeah, yeah, yeah)",
+  cover_art: "https://images.genius.com/bed060b37dec8fa4eee79aad0784076e.1000x1000x1.jpg",
+  youtube_url: "https://www.youtube.com/watch?v=VPRjCeoBqrI"
 )
