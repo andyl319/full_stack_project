@@ -4,14 +4,15 @@ class TrackShow extends React.Component {
   constructor(props){
     super(props);
     this.state = {
+      annotationId: null,
       startIdx: 0,
       endIdx: 0,
       visible: "",
       lyrics: "",
-      annotationId: null,
       annotationPosition: null
     };
     this.showAnnotationButton = this.showAnnotationButton.bind(this);
+    this.setVisible = this.setVisible.bind(this);
     this.resetState = this.resetState.bind(this);
   }
 
@@ -21,13 +22,17 @@ class TrackShow extends React.Component {
 
   resetState(){
     this.setState({
+      annotationId: null,
       startIdx: 0,
       endIdx: 0,
       visible: "",
       lyrics: "",
-      annotationId: null,
       annotationPosition: null
     });
+  }
+
+  setVisible(comp){
+    this.setState({visible: comp});
   }
 
   handleAnnotationClick(id, e){
@@ -64,14 +69,16 @@ class TrackShow extends React.Component {
 
   showAnnotationButton(e){
     const lyric = window.getSelection();
-
-    if(annotation.toString().length === 0){
+    debugger
+    const lyricString = lyric.toString();
+    const lyricLength = new String(lyricString).length;
+    if(lyricLength === 0){
       this.resetState();
       return;
     }
 
     //highlighting only one node
-    if(annotation.anchorNode !== annotation.focusNode){
+    if(lyric.anchorNode !== lyric.focusNode){
       return;
     }
 
@@ -90,7 +97,18 @@ class TrackShow extends React.Component {
     });
   }
 
+  annotateLyrics(){
+
+  }
+
   render(){
+    if(this.props.track){
+      const selectedAnnotation = this.props.track.annotations.forEach((annot) => {
+        if (annot.id === this.state.annotationId){
+          return annot;
+        }
+      });
+    }
     const {track, children} = this.props;
     const lyrics = track.lyrics || "";
     return (
@@ -102,7 +120,7 @@ class TrackShow extends React.Component {
           <span className="track-show-album">Album: {track.album}</span>
           <span className="track-show-artist">{track.artist}</span>
           <span className="track-show-description">{track.description}</span>
-          <span className="track-show-lyrics">
+          <span className="track-show-lyrics" onMouseUp={this.showAnnotationButton}>
             {lyrics.split('<br />').map(function(line) {
               return (
                 <span>

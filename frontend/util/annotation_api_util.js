@@ -13,3 +13,10 @@ export const deleteAnnotation = (annotation) => (
     data: annotation.id
   })
 );
+
+export const fetchAnnotation = (annotationId) => (
+  $.ajax({
+    method: "GET",
+    url: `/api/tracks/${annotation.track_id}/annotations/${annotation.id}`
+  })
+);

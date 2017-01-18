@@ -422,3 +422,11 @@ You're such a heavenly view (yeah, yeah, yeah, yeah)",
   cover_art: "https://images.genius.com/bed060b37dec8fa4eee79aad0784076e.1000x1000x1.jpg",
   youtube_url: "https://www.youtube.com/watch?v=VPRjCeoBqrI"
 )
+
+test1 = Annotation.create(
+  author_id: 1,
+  track_id: 1,
+  body: "These lyrics are dope!",
+  start_idx: 1,
+  end_idx: 10,
+)
