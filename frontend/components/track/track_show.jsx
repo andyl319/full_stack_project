@@ -1,9 +1,82 @@
 import React from 'react';
 
 class TrackShow extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      startIdx: 0,
+      endIdx: 0,
+      visible: "",
+      lyrics: "",
+      annotationId: null,
+      annotationPosition: null
+    };
+    this.showAnnotationButton = this.showAnnotationButton.bind(this);
+    this.resetState = this.resetState.bind(this);
+  }
 
   componentDidMount(){
     this.props.requestTrack(this.props.params.id);
+  }
+
+  handleAnnotationClick(id, e){
+    this.setState({annotationId: id,
+      annotationPosition: e.pageY,
+      visible: "annot"
+    });
+  }
+
+  getAnnotation(annotation) {
+    const startIdx = annotation.anchorOffset;
+    const endIdx = annotation.focusOffset;
+    const parent = annotation.anchorNode.parentElement;
+
+    //backwards highlighting
+    if(startIdx > endIdx){
+      const temp = startIdx;
+      startIdx = endIdx;
+      endIdx = temp;
+    }
+
+    while(parent.previousSibling){
+      startIdx += parent.previousSibling.innerText.length;
+      endIdx += parent.previousSibling.innerText.length;
+      parent = parent.previousSibling;
+    }
+    const lyrics = this.props.track.lyrics.slice(startIdx, endIdx);
+    return ({
+      startIndex: startIdx,
+      endIndex: endIdx,
+      lyrics
+    });
+  }
+
+  showAnnotationButton(e){
+    const lyric = window.getSelection();
+
+    if(annotation.toString().length === 0){
+      this.resetState();
+      return;
+    }
+
+    //highlighting only one node
+    if(selection.anchorNode !== selection.focusNoe){
+      return;
+    }
+
+    const annotation = this.getAnnotation(lyric);
+    const startIdx = annotation.startIdx;
+    const endIdx = annotation.endIdx;
+    const lyrics = annotation.lyrics;
+    const position = e.pageY;
+
+    this.setState({
+      startIdx: startIdx,
+      endIdx: endIdx,
+      visible: "button",
+      lyrics: lyrics,
+      annotationPosition: position
+    });
   }
 
   render(){
