@@ -60,7 +60,7 @@ class TrackShow extends React.Component {
     }
 
     //highlighting only one node
-    if(selection.anchorNode !== selection.focusNoe){
+    if(annotation.anchorNode !== annotation.focusNode){
       return;
     }
 
