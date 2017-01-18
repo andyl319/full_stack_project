@@ -19,6 +19,17 @@ class TrackShow extends React.Component {
     this.props.requestTrack(this.props.params.id);
   }
 
+  resetState(){
+    this.setState({
+      startIdx: 0,
+      endIdx: 0,
+      visible: "",
+      lyrics: "",
+      annotationId: null,
+      annotationPosition: null
+    });
+  }
+
   handleAnnotationClick(id, e){
     this.setState({annotationId: id,
       annotationPosition: e.pageY,
@@ -27,9 +38,9 @@ class TrackShow extends React.Component {
   }
 
   getAnnotation(annotation) {
-    const startIdx = annotation.anchorOffset;
-    const endIdx = annotation.focusOffset;
-    const parent = annotation.anchorNode.parentElement;
+    let startIdx = annotation.anchorOffset;
+    let endIdx = annotation.focusOffset;
+    let parent = annotation.anchorNode.parentElement;
 
     //backwards highlighting
     if(startIdx > endIdx){
