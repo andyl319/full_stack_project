@@ -26,7 +26,6 @@ class Annotation extends React.Component {
       body: this.state.body,
       parent_id: this.props.parentId
     };
-    this.props.resetState();
     this.props.createAnnotation(annotation);
     this.props.setVisible("");
   }
