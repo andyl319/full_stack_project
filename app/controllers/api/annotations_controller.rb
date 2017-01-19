@@ -11,14 +11,11 @@ class Api::AnnotationsController < ApplicationController
   end
 
   def create
-    @annotation = Annotation.new(author_id: current_user,
-                                 start_idx: annotation_params[:start_idx],
-                                 end_idx: annotation_params[:end_idx],
-                                 body: annotation_params[:body],
-                                 track_id: annotation_params[:track_id])
-    @annotations = annotation.track.annotations
+    @annotation = Annotation.new(annotation_params)
+    @annotations = @annotation.track.annotations
+
     if @annotation.save
-      render "api/annotation/index"
+      render :show
     else
       render json: @annotation.errors.full_messages
     end
@@ -33,6 +30,6 @@ class Api::AnnotationsController < ApplicationController
   private
 
   def annotation_params
-    params.require(:annotation).permit(:track_id, :start_idx, :end_idx, :body)
+    params.require(:annotation).permit(:author_id, :track_id, :start_idx, :end_idx, :body)
   end
 end
