@@ -8,7 +8,6 @@ const RootReducer = combineReducers({
   session: SessionReducer,
   tracks: TrackReducer,
   track: TrackShowReducer,
-  annotation: AnnotationReducer
 });
 
 export default RootReducer;

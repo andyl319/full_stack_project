@@ -21,99 +21,99 @@ telegraphAve = Track.create(
   album: "Because the Internet",
   description: "Telegraph Ave is the 7'th track on Childish Gambino's
     2'nd studio album title Because the Internet",
-  lyrics: "[Verse 1: Lloyd]<br />
-    I was making Japanese<br />
-    And she's watching DVDs<br />
-    In Oakland, in Oakland<br />
-    Now I'm driving up the 5<br />
-    And she waits till I arrive<br />
-    In Oakland, in Oakland<br />
-    Everything, that I wanted<br />
-    Only gotta drive for the moment<br />
-    If you tell me 'turn around,' then I'm on it<br />
-    For the moment, but you know me<br />
-    You know how I get when I'm lonely<br />
-    And I think about you and the moments<br />
-    But everything you do is so Oakland, so Oakland<br /><br />
+  lyrics: "[Verse 1: Lloyd]
+I was making Japanese
+And she's watching DVDs
+In Oakland, in Oakland
+Now I'm driving up the 5
+And she waits till I arrive
+In Oakland, in Oakland
+Everything, that I wanted
+Only gotta drive for the moment
+If you tell me 'turn around,' then I'm on it
+For the moment, but you know me
+You know how I get when I'm lonely
+And I think about you and the moments
+But everything you do is so Oakland, so Oakland
 
-    [Hook 1: Lloyd]<br />
-    Foot on the gas<br />
-    I'm just trying to pass<br />
-    All the red lights<br />
-    And the stop signs<br />
-    I'm ready to go<br />
-    Before I get to The Bay<br />
-    Babe, that's a problem<br />
-    Because I'm way too scared to call<br />
-    And you might get me to stay, and oh<br /><br />
+[Hook 1: Lloyd]
+Foot on the gas
+I'm just trying to pass
+All the red lights
+And the stop signs
+I'm ready to go
+Before I get to The Bay
+Babe, that's a problem
+Because I'm way too scared to call
+And you might get me to stay, and oh
 
-    [Post-Hook: Childish Gambino and Lloyd]<br />
-    I don't really mind the drive<br />
-    But I think I'd rather die<br />
-    In Oakland, in Oakland<br />
-    With my hands on two and ten<br />
-    So I guess it all depends<br />
-    On Oakland, on Oakland<br />
-    And I'm nervous, truth be told<br />
-    I never saw me growing old<br />
-    In Oakland, in Oakland<br />
-    And if I married you tonight<br />
-    It would probably start a riot<br />
-    In Oakland, in Oakland<br /><br />
+[Post-Hook: Childish Gambino and Lloyd]
+I don't really mind the drive
+But I think I'd rather die
+In Oakland, in Oakland
+With my hands on two and ten
+So I guess it all depends
+On Oakland, on Oakland
+And I'm nervous, truth be told
+I never saw me growing old
+In Oakland, in Oakland
+And if I married you tonight
+It would probably start a riot
+In Oakland, in Oakland
 
-    [Verse 2: Lloyd]<br />
-    Everything, that I needed<br />
-    Now that I got you in your feelings<br />
-    Everything you won't say, you tweet it<br />
-    And a nigga don’t like that shit at all<br />
-    So treated<br />
-    Can we just roll with the feeling?<br />
-    Can we just roll for a minute?<br />
-    Wait a minute<br /><br />
+[Verse 2: Lloyd]
+Everything, that I needed
+Now that I got you in your feelings
+Everything you won't say, you tweet it
+And a nigga don’t like that shit at all
+So treated
+Can we just roll with the feeling?
+Can we just roll for a minute?
+Wait a minute
 
-    [Hook 2: Lloyd]<br />
-    Foot on the gas<br />
-    I'm just trying to pass<br />
-    All the red lights<br />
-    And the stop signs<br />
-    I'm ready to go<br />
-    But I'm really not ready, girl<br />
-    That's a problem<br />
-    Cause I'm way too scared to fall<br />
-    And I know you choose to stay, and oh<br /><br />
+[Hook 2: Lloyd]
+Foot on the gas
+I'm just trying to pass
+All the red lights
+And the stop signs
+I'm ready to go
+But I'm really not ready, girl
+That's a problem
+Cause I'm way too scared to fall
+And I know you choose to stay, and oh
 
-    [Verse 3: Childish Gambino]<br />
-    All the girlfriends saying 'here we go again'<br />
-    Rich kid but he act like a gentleman<br />
-    Last one didn't end like it should've been<br />
-    Two dates and he still wanna get it in<br />
-    And they're saying it's because of the Internet<br />
-    Try her once and it's on to the next chick<br />
-    X-O the O face on your exes...right?<br />
-    And we can do the same thing if you wanna have at it<br />
-    When your thoughts can't breathe and you thinking asthmatic<br />
-    And you wanna be a mom and I wasn't mad at it<br />
-    I was thinking 'bout me, I'd be really bad at it<br />
-    Cause I'm thinking 'bout me, weeks in Dubai<br />
-    Fourth of July, house in Kauai, yeah we can try<br />
-    So let's try<br /><br />
+[Verse 3: Childish Gambino]
+All the girlfriends saying 'here we go again'
+Rich kid but he act like a gentleman
+Last one didn't end like it should've been
+Two dates and he still wanna get it in
+And they're saying it's because of the Internet
+Try her once and it's on to the next chick
+X-O the O face on your exes...right?
+And we can do the same thing if you wanna have at it
+When your thoughts can't breathe and you thinking asthmatic
+And you wanna be a mom and I wasn't mad at it
+I was thinking 'bout me, I'd be really bad at it
+Cause I'm thinking 'bout me, weeks in Dubai
+Fourth of July, house in Kauai, yeah we can try
+So let's try
 
-    [Outro: Lloyd]<br />
-    Whoa<br />
-    I took off my nine to five<br />
-    But you still don't have the time to kiss me, just hit me<br />
-    And if I left you all alone, would you still pick up the phone?<br />
-    It's iffy, you miss me<br />
-    I got furniture to move<br />
-    And we'll both be thirty soon<br />
-    In Oakland, in Oakland<br />
-    The only one I know is you, so the f*** I'm supposed to do?<br />
-    In Oakland, in Oakland<br />
-    In Oakland, in Oakland<br />
-    In Oakland, in Oakland<br />
-    In Oakland, in Oakland<br />
-    In Oakland, in Oakland<br />
-    In Oakland, in Oakland",
+[Outro: Lloyd]
+Whoa
+I took off my nine to five
+But you still don't have the time to kiss me, just hit me
+And if I left you all alone, would you still pick up the phone?
+It's iffy, you miss me
+I got furniture to move
+And we'll both be thirty soon
+In Oakland, in Oakland
+The only one I know is you, so the f*** I'm supposed to do?
+In Oakland, in Oakland
+In Oakland, in Oakland
+In Oakland, in Oakland
+In Oakland, in Oakland
+In Oakland, in Oakland
+In Oakland, in Oakland",
   cover_art: "https://images.genius.com/54176aed36cb6114bc46f0b70b8b02b3.1000x1000x1.jpg",
   youtube_url: "https://www.youtube.com/v/NPQCra8FEew"
 )
@@ -125,39 +125,39 @@ beings = Track.create(
   album: "Adventure",
   description: "Beings is the 6'th track on Madeon's debut album
     entitled 'Adventure'.",
-  lyrics: "[Verse 1]<br />
-These will be times that I will miss<br />
-Don’t blame me if I don’t come through<br />
-I spent a lifetime on this<br />
-But I would give it up for you<br /><br />
+  lyrics: "[Verse 1]
+These will be times that I will miss
+Don’t blame me if I don’t come through
+I spent a lifetime on this
+But I would give it up for you
 
-[Chorus]<br />
-Because I know what you do out of passion<br />
-But it only makes it harder for me<br />
-And I know that you’re scared by the notion<br />
-We’ll become who we're meant to be<br /><br />
+[Chorus]
+Because I know what you do out of passion
+But it only makes it harder for me
+And I know that you’re scared by the notion
+We’ll become who we're meant to be
 
-[Verse 2]<br />
-Fall in the hands of a greater unknown<br />
-Let me be there<br />
-And tell me if you need time to prepare<br />
-All we’ll demand is the world<br /><br />
+[Verse 2]
+Fall in the hands of a greater unknown
+Let me be there
+And tell me if you need time to prepare
+All we’ll demand is the world
 
-[Chorus]<br />
-Because I know what you do out of passion<br />
-But it only makes it harder for me<br />
-And I know that you’re scared by the notion<br />
-We’ll become who we're meant to be<br /><br />
+[Chorus]
+Because I know what you do out of passion
+But it only makes it harder for me
+And I know that you’re scared by the notion
+We’ll become who we're meant to be
 
-[Outro]<br />
-Oh what we meant to be<br />
-Oh what we meant to be<br />
-Oh what we meant to be<br />
-Oh what we meant to be<br />
-We’ll become who we're meant to be<br />
-We’ll become who we're meant because I know<br />
-We’ll become who we're meant to be<br />
-We’ll become who we're meant because I know<br />
+[Outro]
+Oh what we meant to be
+Oh what we meant to be
+Oh what we meant to be
+Oh what we meant to be
+We’ll become who we're meant to be
+We’ll become who we're meant because I know
+We’ll become who we're meant to be
+We’ll become who we're meant because I know
 We’ll become who we're meant to be",
   cover_art: "https://images.genius.com/c19df9e79cbdf69a0c00fe8f06598a0a.960x960x1.jpg",
   youtube_url: "https://www.youtube.com/v/tAhT6kFWkAo"
@@ -170,70 +170,70 @@ all_of_me = Track.create(
   album: "Love in the Future",
   description: "“All of Me” is the third single from and sixth
   track on John Legend’s album",
-  lyrics: "[Verse 1]<br />
-What would I do without your smart mouth?<br />
-Drawing me in and you kicking me out<br />
-You got my head spinning, no kidding, I can't pin you down<br />
-What's going on in that beautiful mind?<br />
-I'm on your magical mystery ride<br />
-And I'm so dizzy, don't know what hit me, but I'll be all right<br /><br />
+  lyrics: "[Verse 1]
+What would I do without your smart mouth?
+Drawing me in and you kicking me out
+You got my head spinning, no kidding, I can't pin you down
+What's going on in that beautiful mind?
+I'm on your magical mystery ride
+And I'm so dizzy, don't know what hit me, but I'll be all right
 
-[Pre-Hook]<br />
-My head's under water but I’m breathing fine<br />
-You're crazy and I'm out of my mind<br /><br />
+[Pre-Hook]
+My head's under water but I’m breathing fine
+You're crazy and I'm out of my mind
 
-[Hook]<br />
-Cause all of me loves all of you<br />
-Love your curves and all your edges<br />
-All your perfect imperfections<br />
-Give your all to me<br />
-I'll give my all to you<br />
-You're my end and my beginning<br />
-Even when I lose, I’m winning<br />
-Cause I give you all of me<br />
-And you give me all of you<br /><br />
+[Hook]
+Cause all of me loves all of you
+Love your curves and all your edges
+All your perfect imperfections
+Give your all to me
+I'll give my all to you
+You're my end and my beginning
+Even when I lose, I’m winning
+Cause I give you all of me
+And you give me all of you
 
-[Verse 2]<br />
-How many times do I have to tell you?<br />
-Even when you're crying, you're beautiful too<br />
-The world is beating you down, I’m around<br />
-Through every mood<br />
-You're my downfall, you're my muse<br />
-My worst distraction, my rhythm and blues<br />
-I can't stop singing, it's ringing in my head for you<br /><br />
+[Verse 2]
+How many times do I have to tell you?
+Even when you're crying, you're beautiful too
+The world is beating you down, I’m around
+Through every mood
+You're my downfall, you're my muse
+My worst distraction, my rhythm and blues
+I can't stop singing, it's ringing in my head for you
 
-[Pre-Hook]<br />
-My head's under water but I’m breathing fine<br />
-You're crazy and I'm out of my mind<br /><br />
+[Pre-Hook]
+My head's under water but I’m breathing fine
+You're crazy and I'm out of my mind
 
-[Hook]<br />
-Cause all of me loves all of you<br />
-Love your curves and all your edges<br />
-All your perfect imperfections<br />
-Give your all to me<br />
-I'll give my all to you<br />
-You're my end and my beginning<br />
-Even when I lose, I’m winning<br />
-Cause I give you all of me<br />
-And you give me all of you<br /><br />
+[Hook]
+Cause all of me loves all of you
+Love your curves and all your edges
+All your perfect imperfections
+Give your all to me
+I'll give my all to you
+You're my end and my beginning
+Even when I lose, I’m winning
+Cause I give you all of me
+And you give me all of you
 
-[Bridge]<br />
-Cards on the table, we're both showing hearts<br />
-Risking it all, though it’s hard<br /><br />
+[Bridge]
+Cards on the table, we're both showing hearts
+Risking it all, though it’s hard
 
-[Hook]<br />
-Cause all of me loves all of you<br />
-Love your curves and all your edges<br />
-All your perfect imperfections<br />
-Give your all to me<br />
-I'll give my all to you<br />
-You're my end and my beginning<br />
-Even when I lose, I’m winning<br />
-Cause I give you all of me<br />
-And you give me all of you<br /><br />
+[Hook]
+Cause all of me loves all of you
+Love your curves and all your edges
+All your perfect imperfections
+Give your all to me
+I'll give my all to you
+You're my end and my beginning
+Even when I lose, I’m winning
+Cause I give you all of me
+And you give me all of you
 
-[Outro]<br />
-I give you all of me<br />
+[Outro]
+I give you all of me
 And you give me all of you",
   cover_art: "http://images.genius.com/e95068be211e9b806bba3f57a14c7100.1000x994x1.jpg",
   youtube_url: "https://www.youtube.com/watch?v=450p7goxZqg"
@@ -246,71 +246,71 @@ good_morning = Track.create(
   album: "Graduation",
   description: "Good Morning was the first track off Kanye West's
   3'rd album entitled 'Graduation'.",
-  lyrics: "[Intro]<br />
-Uhh.. uhh<br />
-Uhh.. uhh<br />
-Good morning!<br />
-Good morning!<br />
-Good morning!<br />
-Good morning!<br /><br />
+  lyrics: "[Intro]
+Uhh.. uhh
+Uhh.. uhh
+Good morning!
+Good morning!
+Good morning!
+Good morning!
 
-[Verse 1]<br />
-Wake up Mr. West, Mr. West<br />
-Mr. Fresh, Mister, by himself he's so impressed<br />
-I mean damn, did you even see the test?<br />
-You got D's, muthaf**** D's, Rosie Perez<br />
-And yer a** barely passed any and every class<br />
-Looking at every a**, cheated on every test<br />
-I guess, this is my dissertation<br />
-Homie this s*** is basic, welcome to Graduation<br /><br />
+[Verse 1]
+Wake up Mr. West, Mr. West
+Mr. Fresh, Mister, by himself he's so impressed
+I mean damn, did you even see the test?
+You got D's, muthaf**** D's, Rosie Perez
+And yer a** barely passed any and every class
+Looking at every a**, cheated on every test
+I guess, this is my dissertation
+Homie this s*** is basic, welcome to Graduation
 
-[Hook]<br />
-Good morning!<br />
-Good morning!<br />
-Good morning!<br />
-Good morning!<br /><br />
+[Hook]
+Good morning!
+Good morning!
+Good morning!
+Good morning!
 
-[Verse 2]<br />
-Good morning, on this day we become legendary<br />
-Everything we dreamed of<br />
-I'm like the fly Malcolm X, buy any jeans necessary<br />
-Detroit Red cleaned up<br />
-From the streets to the league, from an eighth to a key<br />
-But you graduate when you make it up outta the streets<br />
-From the moments of pain, look how far we done came<br />
-Haters saying you changed, now you doing your thang<br /><br />
+[Verse 2]
+Good morning, on this day we become legendary
+Everything we dreamed of
+I'm like the fly Malcolm X, buy any jeans necessary
+Detroit Red cleaned up
+From the streets to the league, from an eighth to a key
+But you graduate when you make it up outta the streets
+From the moments of pain, look how far we done came
+Haters saying you changed, now you doing your thang
 
-[Hook]<br />
-Good morning!<br />
-Good morning!<br />
-Good morning!<br />
-Good morning!<br /><br />
+[Hook]
+Good morning!
+Good morning!
+Good morning!
+Good morning!
 
-[Verse 3]<br />
-Good morning, look at the valedictorian<br />
-Scared of the future while I hop in the DeLorean<br />
-Scared to face the world, complacent career student<br />
-Some people graduate, but be still stupid<br />
-They tell you read this, eat this, don't look around<br />
-Just peep this, preachers, teach us, Jesus<br />
-Okay look up now, they done stole yo' streetness<br />
-After all of that you received this<br /><br />
+[Verse 3]
+Good morning, look at the valedictorian
+Scared of the future while I hop in the DeLorean
+Scared to face the world, complacent career student
+Some people graduate, but be still stupid
+They tell you read this, eat this, don't look around
+Just peep this, preachers, teach us, Jesus
+Okay look up now, they done stole yo' streetness
+After all of that you received this
 
-[Outro]<br />
-Good morning!<br />
-(Hustlers that's if you're still living, get on down)<br />
-Every time that we hear them<br />
-Good morning!<br />
-Hustlers that's if you're still living, get on down<br />
-Every time that we hear them<br />
-Good morning!<br />
-Hustlers that's if you're still living, get on down<br />
-Every time that we hear them<br />
-Good morning!<br />
-Hustlers that's if you're still living, get on down<br />
-Get on down<br />
-Get, get on down<br />
-Get on down<br />
+[Outro]
+Good morning!
+(Hustlers that's if you're still living, get on down)
+Every time that we hear them
+Good morning!
+Hustlers that's if you're still living, get on down
+Every time that we hear them
+Good morning!
+Hustlers that's if you're still living, get on down
+Every time that we hear them
+Good morning!
+Hustlers that's if you're still living, get on down
+Get on down
+Get, get on down
+Get on down
 Get, get on down",
   cover_art: "http://images.genius.com/ba625221903afea7b1856226a3b03cfe.1000x1000x1.jpg",
   youtube_url: "https://www.youtube.com/v/tAhT6kFWkAo"
@@ -324,50 +324,50 @@ purpose = Track.create(
   description: "Purpose is the 13'th track on Justin Bieber's album
   entitled with the same name. It deals with his new found purpose
   and sends a message of appreciation to his fans.",
-  lyrics: "[Verse 1]<br />
-Feeling like I'm breathing my last breath<br />
-Feeling like I'm walking my last steps<br />
-Look at all of these tears I've wept<br />
-Look at all the promises that I've kept<br /><br />
+  lyrics: "[Verse 1]
+Feeling like I'm breathing my last breath
+Feeling like I'm walking my last steps
+Look at all of these tears I've wept
+Look at all the promises that I've kept
 
-[Pre-Chorus]<br />
-I put my all into your hands<br />
-Here's my soul to keep<br />
-I let you in with all that I can<br />
-You're not hard to reach<br /><br />
+[Pre-Chorus]
+I put my all into your hands
+Here's my soul to keep
+I let you in with all that I can
+You're not hard to reach
 
-[Chorus]<br />
-And you bless me with the best gift<br />
-That I've ever known<br />
-You give me purpose<br />
-Yeah, you've given me purpose<br /><br />
+[Chorus]
+And you bless me with the best gift
+That I've ever known
+You give me purpose
+Yeah, you've given me purpose
 
-[Verse 2]<br />
-Thinking my journey's come to an end<br />
-Sending out a farewell to my friends, for inner peace<br />
-Ask you to forgive me for my sins, oh would you please?<br />
-I'm more than grateful for the time we spent, my spirit's at ease<br /><br />
+[Verse 2]
+Thinking my journey's come to an end
+Sending out a farewell to my friends, for inner peace
+Ask you to forgive me for my sins, oh would you please?
+I'm more than grateful for the time we spent, my spirit's at ease
 
-[Pre-Chorus]<br />
-I put my heart into your hands<br />
-Learn the lessons you teach<br />
-No matter when, wherever I am<br />
-You're not hard to reach<br /><br />
+[Pre-Chorus]
+I put my heart into your hands
+Learn the lessons you teach
+No matter when, wherever I am
+You're not hard to reach
 
-[Chorus]<br />
-And you've given me the best gift<br />
-That I've ever known<br />
-You give me purpose everyday<br />
-You give me purpose in every way<br /><br />
+[Chorus]
+And you've given me the best gift
+That I've ever known
+You give me purpose everyday
+You give me purpose in every way
 
-[Bridge]<br />
-Oh, you are my everything<br />
-Oh, you are my everything<br /><br />
+[Bridge]
+Oh, you are my everything
+Oh, you are my everything
 
-[Outro (Spoken)]<br />
-I don’t know if this is wrong, because someone else is telling me that it’s wrong. But I feel this so let me just like try my best not to let this happen again. We weren’t necessarily put in the best position to make the best decisions<br />
+[Outro (Spoken)]
+I don’t know if this is wrong, because someone else is telling me that it’s wrong. But I feel this so let me just like try my best not to let this happen again. We weren’t necessarily put in the best position to make the best decisions
 
-You can’t be hard on yourself for it, these are the cards you were given so you have to understand that’s not who you are. You know you’re trying to be the best you can be, but that’s all you can do. If you don’t give it all you got, you’re only cheating yourself give it all you got but if it ends up happening, it ends up happening<br />
+You can’t be hard on yourself for it, these are the cards you were given so you have to understand that’s not who you are. You know you’re trying to be the best you can be, but that’s all you can do. If you don’t give it all you got, you’re only cheating yourself give it all you got but if it ends up happening, it ends up happening
 
 That’s what happening with me, it’s like “God, I’m giving it all I’ve got, sometimes I’m weak and I’m going to do it.” And it’s like I’m not giving myself grace, I’m just like understanding that’s how it is",
   cover_art: "http://images.genius.com/626766c70d96b981e035d97af83e3516.1000x1000x1.jpg",
@@ -381,43 +381,43 @@ black_friday = Track.create(
   album: "Ghost Stories",
   description: "A Sky Full of Stars was the third single off Coldplay's
   album entitled 'Ghost Stories'",
-  lyrics: "[Verse 1]<br />
-Cause you're a sky<br />
-Cause you're a sky full of stars<br />
-I'm gonna give you my heart<br />
-Cause you're a sky<br />
-Cause you're a sky full of stars<br />
-Cause you light up the path<br /><br />
+  lyrics: "[Verse 1]
+Cause you're a sky
+Cause you're a sky full of stars
+I'm gonna give you my heart
+Cause you're a sky
+Cause you're a sky full of stars
+Cause you light up the path
 
-[Hook]<br />
-I don't care<br />
-Go on and tear me apart<br />
-I don't care if you do, ooh<br />
-Cause in a sky<br />
-Cause in a sky full of stars<br />
-I think I saw you<br /><br />
+[Hook]
+I don't care
+Go on and tear me apart
+I don't care if you do, ooh
+Cause in a sky
+Cause in a sky full of stars
+I think I saw you
 
-[Verse 2]<br />
-Cause you're a sky<br />
-Cause you're a sky full of stars<br />
-I want to die in your arms, oh<br />
-Cause you get lighter<br />
-The more it gets dark<br />
-I'm gonna give you my heart, oh<br /><br />
+[Verse 2]
+Cause you're a sky
+Cause you're a sky full of stars
+I want to die in your arms, oh
+Cause you get lighter
+The more it gets dark
+I'm gonna give you my heart, oh
 
-[Hook]<br />
-And I don't care<br />
-Go on and tear me apart<br />
-And I don't care if you do, ooh<br />
-Cause in a sky<br />
-Cause in a sky full of stars<br />
-I think I see you<br />
-I think I see you<br /><br />
+[Hook]
+And I don't care
+Go on and tear me apart
+And I don't care if you do, ooh
+Cause in a sky
+Cause in a sky full of stars
+I think I see you
+I think I see you
 
-[Outro]<br />
-So sky<br />
-You're a sky full of stars<br />
-Such heavenly view<br />
+[Outro]
+So sky
+You're a sky full of stars
+Such heavenly view
 You're such a heavenly view (yeah, yeah, yeah, yeah)",
   cover_art: "https://images.genius.com/bed060b37dec8fa4eee79aad0784076e.1000x1000x1.jpg",
   youtube_url: "https://www.youtube.com/watch?v=VPRjCeoBqrI"
