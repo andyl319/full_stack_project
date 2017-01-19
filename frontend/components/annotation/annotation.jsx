@@ -4,10 +4,20 @@ class Annotation extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
+
+    this.openForm = this.openForm.bind(this);
+    this.handleCancel = this.handleCancel.bind(this);
+  }
+
+  update(field){
+    return e => this.setState({
+      [field]: e.currentTarget.value
+    });
   }
 
   openForm(e){
     e.preventDefault();
+    debugger
     this.props.setVisible("form");
   }
 
@@ -17,7 +27,7 @@ class Annotation extends React.Component {
   }
 
   render() {
-    const pos = {top: this.props.annotationPosition};
+    const pos = {position: "absolute", top: this.props.annotationPosition};
     let annotationShow;
 
     if(this.props.visible === "button") {

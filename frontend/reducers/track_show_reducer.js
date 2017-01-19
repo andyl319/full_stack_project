@@ -1,5 +1,5 @@
 import {RECEIVE_TRACK} from '../actions/track_actions';
-
+import {RECEIVE_ALL_ANNOTATIONS} from '../actions/annotation_actions';
 import merge from 'lodash/merge';
 
 const nullState = {
@@ -15,12 +15,15 @@ const nullState = {
 };
 
 const TrackShowReducer = (state = nullState, action) => {
-  Object.freeze(nullState);
+  Object.freeze(state);
   switch(action.type) {
     case RECEIVE_TRACK:
-      return merge({}, nullState,action.track);
+      return merge({}, state, action.track);
+    case RECEIVE_ALL_ANNOTATIONS:
+      let test = merge({}, state, {annotations: action.annotations});
+      return test;
     default:
-      return nullState;
+      return state;
   }
 };
 

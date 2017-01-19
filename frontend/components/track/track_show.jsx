@@ -1,4 +1,5 @@
 import React from 'react';
+import AnnotationContainer from '../annotation/annotation_container';
 
 class TrackShow extends React.Component {
   constructor(props){
@@ -9,15 +10,22 @@ class TrackShow extends React.Component {
       endIdx: 0,
       visible: "",
       lyrics: "",
-      annotationPosition: null
+      annotationPosition: null,
+      annotations: []
     };
     this.showAnnotationButton = this.showAnnotationButton.bind(this);
     this.setVisible = this.setVisible.bind(this);
     this.resetState = this.resetState.bind(this);
+
   }
 
   componentDidMount(){
     this.props.requestTrack(this.props.params.id);
+    this.props.requestAllAnnotations(this.props.params.id);
+  }
+
+  formattedLyrics(){
+    return this.props.track.lyrics.split('<br />').join("").split("\n").join("");
   }
 
   resetState(){
@@ -42,24 +50,23 @@ class TrackShow extends React.Component {
     });
   }
 
-  getAnnotation(annotation) {
+  getAnnotation(annotation, lyricLength) {
     let startIdx = annotation.anchorOffset;
     let endIdx = annotation.focusOffset;
     let parent = annotation.anchorNode.parentElement;
-
     //backwards highlighting
     if(startIdx > endIdx){
       const temp = startIdx;
       startIdx = endIdx;
       endIdx = temp;
     }
-
     while(parent.previousSibling){
       startIdx += parent.previousSibling.innerText.length;
       endIdx += parent.previousSibling.innerText.length;
       parent = parent.previousSibling;
     }
     const lyrics = this.props.track.lyrics.slice(startIdx, endIdx);
+    debugger
     return ({
       startIndex: startIdx,
       endIndex: endIdx,
@@ -68,8 +75,8 @@ class TrackShow extends React.Component {
   }
 
   showAnnotationButton(e){
+    e.preventDefault();
     const lyric = window.getSelection();
-    debugger
     const lyricString = lyric.toString();
     const lyricLength = new String(lyricString).length;
     if(lyricLength === 0){
@@ -82,9 +89,9 @@ class TrackShow extends React.Component {
       return;
     }
 
-    const annotation = this.getAnnotation(lyric);
-    const startIdx = annotation.startIdx;
-    const endIdx = annotation.endIdx;
+    const annotation = this.getAnnotation(lyric, lyricLength);
+    const startIdx = annotation.startIndex;
+    const endIdx = annotation.endIndex;
     const lyrics = annotation.lyrics;
     const position = e.pageY;
 
@@ -102,8 +109,9 @@ class TrackShow extends React.Component {
   }
 
   render(){
+    let selectedAnnotation =[];
     if(this.props.track){
-      const selectedAnnotation = this.props.track.annotations.forEach((annot) => {
+      selectedAnnotation = this.props.track.annotations.forEach((annot) => {
         if (annot.id === this.state.annotationId){
           return annot;
         }
@@ -112,28 +120,41 @@ class TrackShow extends React.Component {
     const {track, children} = this.props;
     const lyrics = track.lyrics || "";
     return (
-      <div className="track-display">
-        <p className="track-show-item">
-          <img src={track.cover_art} alt={track.title} className="cover-art" />
-          <iframe className="youtube" width="420" height="315" src={track.youtube_url}></iframe>
-          <span className="track-show-title">{track.title}</span>
-          <span className="track-show-album">Album: {track.album}</span>
-          <span className="track-show-artist">{track.artist}</span>
-          <span className="track-show-description">{track.description}</span>
-          <span className="track-show-lyrics" onMouseUp={this.showAnnotationButton}>
-            {lyrics.split('<br />').map(function(line) {
-              return (
-                <span>
-                  {line}
-                  <br/>
-                </span>
-              );
-            })}
-          </span>
-        </p>
-
-        {children}
+      <div>
+        <div className="track-display">
+          <p className="track-show-item">
+            <img src={track.cover_art} alt={track.title} className="cover-art" />
+            <iframe className="youtube" width="420" height="315" src={track.youtube_url}></iframe>
+            <span className="track-show-title">{track.title}</span>
+            <span className="track-show-album">Album: {track.album}</span>
+            <span className="track-show-artist">{track.artist}</span>
+            <span className="track-show-description">{track.description}</span>
+            <span className="track-show-lyrics" onMouseUp={this.showAnnotationButton}>
+              {lyrics.split('\n').map(function(line) {
+                return (
+                  <span>
+                    {line}
+                    <br/>
+                  </span>
+                );
+              })}
+            </span>
+          </p>
+        </div>
+        <div className="annotation-container">
+            <AnnotationContainer
+              visible={this.state.visible}
+              trackId={this.props.track.id}
+              lyrics={this.state.lyrics}
+              startIdx={this.state.startIdx}
+              endIdx={this.state.endIdx}
+              annotationPosition={this.state.annotationPosition}
+              track={this.props.track}
+              selectedAnnotation={selectedAnnotation}
+              setVisible={this.setVisible}/>
+          </div>
       </div>
+
     );
   }
 }
