@@ -124,14 +124,16 @@
 
 .annot{
   background-color: #ffff64;
+  border-radius: 5px;
+  padding: 1px;
 }
 
 .annot:hover{
   background-color: #ffffcc;
   cursor: pointer;
   border: solid;
+  border-width: thin;
   border-color: #ffffcc;
-  border-radius: .5px;
 }
 
 .annot-show{
