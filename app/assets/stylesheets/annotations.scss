@@ -1,7 +1,127 @@
 .annotation-container{
   display: block;
   position: absolute;
-  left: 50%;
+  left: 700px;
   min-height: 100%;
   top: 15px;
+}
+
+.annot{
+  background-color: #ffff64;
+}
+
+.annot-button-container{
+  display: block;
+  position: absolute;
+  min-width: 300px;
+  min-height: 50px;
+  background-color: #383838;
+}
+.annot-button{
+  display: block;
+  position: relative;
+  background-color: #383838;
+  color: #cccccc;
+  text-align: center;
+  top: 18px;
+  font-size: 14px;
+}
+
+.annot-button-container:hover{
+  cursor: pointer;
+  border-left: solid;
+  border-left-color: #ffff64;
+}
+
+.annot-form-container{
+  display: block;
+  position: absolute;
+  background-color: #383838;
+  min-width: 300px;
+  min-height: 300px;
+  justify-content: center;
+}
+.annot-form{
+  display: block;
+  position: absolute;
+  min-width: 350px;
+  min-height: 300px;
+}
+.annot-form-head{
+  display: block;
+  position: relative;
+  color: #2ab1f9;
+  font-size: 14px;
+  max-width: 250px;
+  top: 40px;
+  left: 25px;
+}
+
+.annot-lyric{
+  display: block;
+  position: relative;
+  color: #ffff64;
+  font-size: 14px;
+  top: 53px;
+  left: 25px;
+}
+
+.annot-body{
+  display: block;
+  position: relative;
+  color: #cccccc;
+  font-size: 12px;
+  top: 80px;
+  left: 25px;
+}
+
+.annot-input{
+  display: block;
+  position: relative;
+  background-color: #383838;
+  color: #cccccc;
+  font-size: 14px;
+  min-height: 75px;
+  min-width: 200px;
+  left: 35px;
+  background-color: #565656;
+  border-color: #565656
+}
+
+.annot-cancel{
+  display: block;
+  position: absolute;
+  padding: 10px;
+  font-size: 14px;
+  left: 25px;
+  top: 245px;
+  color: #ffff64;
+  background-color: #565656;
+  border-color: #565656;
+  transition: background-color 0.6s;
+  transition: border-color 0.6s;
+  transition: color 0.6s;
+}
+.annot-submit{
+  display: block;
+  position: absolute;
+  padding: 10px;
+  font-size: 14px;
+  left: 200px;
+  top: 245px;
+  color: #ffff64;
+  background-color: #565656;
+  border-color: #565656;
+  transition: background-color 0.6s;
+  transition: border-color 0.6s;
+  transition: color 0.6s;
+}
+
+.annot-submit:hover,
+.annot-cancel:hover{
+  background-color: #3d3d3d;
+  font-weight: bold;
+  color: #2ab1f9;
+  border-width: thin;
+  border-color: #2ab1f9;
 }

@@ -1,10 +1,11 @@
-export const createAnnotation = (annotation) => (
+export const createAnnotation = (annotation) => {
+  return (
   $.ajax({
     method: 'POST',
     url: `/api/tracks/${annotation.track_id}/annotations`,
-    data: annotation
-  })
-);
+    data: {annotation}
+  }));
+};
 
 export const deleteAnnotation = (annotation) => (
   $.ajax({

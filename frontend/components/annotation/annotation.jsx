@@ -3,8 +3,9 @@ import React from 'react';
 class Annotation extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = { body: "" };
 
+    this.handleSubmit = this.handleSubmit.bind(this);
     this.openForm = this.openForm.bind(this);
     this.handleCancel = this.handleCancel.bind(this);
   }
@@ -15,9 +16,21 @@ class Annotation extends React.Component {
     });
   }
 
+  handleSubmit(e){
+    e.preventDefault();
+    const annotation = {
+      author_id: this.props.currentUser.id,
+      start_idx: this.props.startIdx,
+      end_idx: this.props.endIdx,
+      track_id: this.props.trackId,
+      body: this.state.body
+    };
+    this.props.createAnnotation(annotation);
+    this.props.setVisible("");
+  }
+
   openForm(e){
     e.preventDefault();
-    debugger
     this.props.setVisible("form");
   }
 
@@ -32,36 +45,41 @@ class Annotation extends React.Component {
 
     if(this.props.visible === "button") {
       annotationShow = (
-        <button style={pos}
-          onClick={this.openForm}
-          className="annot-button">
-          Click to begin Annotation!
-        </button>
+        <span style={pos} className="annot-button-container">
+          <a onClick={this.openForm}
+            className="annot-button">
+            Click to begin Annotation!
+          </a>
+        </span>
       );
     } else if (this.props.visible === "form") {
       annotationShow = (
-        <form style={pos} onSubmit={this.handleSubmit} className="annot-form">
-          <br/>
-          <label className="body">Body: &nbsp;&nbsp;
-            <input type="text"
-              className="input"
-              value={this.state.annotationBody}
-              onChange={this.update("annotationBody")} />
-          </label>
-          <br/>
-          <button className="annot-cancel"
-            onClick={this.handleCancel}>
-            Cancel
-          </button>
-          <br/>
-          <input className="submit" type="submit" value="SUBMIT" />
-        </form>
+        <span style={pos} className="annot-form-container">
+          <form onSubmit={this.handleSubmit} className="annot-form">
+            <a className="annot-form-head">Annotate: &nbsp;&nbsp;</a>
+            <a className="annot-lyric">{this.props.lyrics}</a>
+            <br/>
+            <label className="annot-body">Body: &nbsp;&nbsp;
+              <textarea type="text"
+                className="annot-input"
+                value={this.state.body}
+                onChange={this.update("body")} ></textarea>
+            </label>
+            <br/>
+            <button className="annot-cancel"
+              onClick={this.handleCancel}>
+              Cancel
+            </button>
+            <br/>
+            <input className="annot-submit" type="submit" value="SUBMIT" />
+          </form>
+        </span>
       );
     } else if (this.props.visible === "annot") {
       const annot = this.props.selectedAnnotation;
       annotationShow = (
         <div style={pos} className="annot-show">
-          <a className="annot-author">Annotation submitted by: {annot.author}</a>
+          <a className="annot-author">Annotation submitted by: {annot.author_id}</a>
           <a className="annot-body">{annot.body}</a>
         </div>
       );

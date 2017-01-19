@@ -1,12 +1,11 @@
-@annotations.each do |ann|
-  json.set! ann.id do
-    json.extract! ann,
+@annotations.each do |annotation|
+  json.set! annotation.id do
+    json.extract! annotation,
       :id,
-      :track_id,
       :author_id,
+      :track_id,
       :start_idx,
       :end_idx,
-      :body,
-      :created_at
+      :body
     end
   end

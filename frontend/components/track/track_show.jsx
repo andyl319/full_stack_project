@@ -66,7 +66,6 @@ class TrackShow extends React.Component {
       parent = parent.previousSibling;
     }
     const lyrics = this.props.track.lyrics.slice(startIdx, endIdx);
-    debugger
     return ({
       startIndex: startIdx,
       endIndex: endIdx,
