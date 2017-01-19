@@ -10,6 +10,10 @@ class Track < ActiveRecord::Base
     primary_key: :id,
     foreign_key: :track_id,
     class_name: 'Annotation'
-  # has_many :comments
+
+  has_many :track_comments,
+    primary_key: :id,
+    foreign_key: :track_id,
+    class_name: 'TrackComment'
   # has_many :upvotes
 end

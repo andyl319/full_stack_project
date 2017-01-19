@@ -10,22 +10,18 @@ class TrackShow extends React.Component {
       endIdx: 0,
       visible: "",
       lyrics: "",
+      parentId: 0,
       annotationPosition: null,
-      annotations: []
     };
     this.showAnnotationButton = this.showAnnotationButton.bind(this);
     this.setVisible = this.setVisible.bind(this);
     this.resetState = this.resetState.bind(this);
-
+    this.handleAnnotationClick = this.handleAnnotationClick.bind(this);
   }
 
   componentDidMount(){
     this.props.requestTrack(this.props.params.id);
     this.props.requestAllAnnotations(this.props.params.id);
-  }
-
-  formattedLyrics(){
-    return this.props.track.lyrics.split('<br />').join("").split("\n").join("");
   }
 
   resetState(){
@@ -35,7 +31,9 @@ class TrackShow extends React.Component {
       endIdx: 0,
       visible: "",
       lyrics: "",
-      annotationPosition: null
+      parentId: 0,
+      annotationPosition: null,
+      selectedAnnotation: {}
     });
   }
 
@@ -43,17 +41,34 @@ class TrackShow extends React.Component {
     this.setState({visible: comp});
   }
 
-  handleAnnotationClick(id, e){
-    this.setState({annotationId: id,
+  handleAnnotationClick(e){
+    e.preventDefault();
+    let selectedAnnotation ={};
+    if(this.props.track){
+      this.props.track.annotations.forEach(annot => {
+        if (annot.parent_id === parseInt(e.target.id)){
+          selectedAnnotation = annot;
+          return;
+        }
+      });
+    }
+    this.setState({
+      annotationId: selectedAnnotation.id,
       annotationPosition: e.pageY,
-      visible: "annot"
+      visible: "annot",
+      selectedAnnotation: selectedAnnotation
     });
   }
 
-  getAnnotation(annotation, lyricLength) {
+  getAnnotation(annotation) {
     let startIdx = annotation.anchorOffset;
     let endIdx = annotation.focusOffset;
     let parent = annotation.anchorNode.parentElement;
+    if(parent.className === "annot"){
+      return; ///////////////ADD CANNOT ANNOTATE ERROR
+    }
+    this.setState({parentId: parent.id});
+
     //backwards highlighting
     if(startIdx > endIdx){
       const temp = startIdx;
@@ -88,7 +103,7 @@ class TrackShow extends React.Component {
       return;
     }
 
-    const annotation = this.getAnnotation(lyric, lyricLength);
+    const annotation = this.getAnnotation(lyric);
     const startIdx = annotation.startIndex;
     const endIdx = annotation.endIndex;
     const lyrics = annotation.lyrics;
@@ -99,25 +114,49 @@ class TrackShow extends React.Component {
       endIdx: endIdx,
       visible: "button",
       lyrics: lyrics,
-      annotationPosition: position
+      annotationPosition: position,
     });
   }
 
-  annotateLyrics(){
+  formattedLyrics(){
+    let lyrics = this.props.track.lyrics || "";
+    let annotArr = this.props.track.annotations.slice() || [];
+    annotArr.sort(function(a,b){
+      return a.parent_id-b.parent_id;
+    });
+    let lineId = 0;
+    let currentAnnotation = annotArr.shift();
+    let currentParentId = currentAnnotation ? currentAnnotation.parent_id : 0;
 
+    let newLyrics = lyrics.split('\n').map(line => {
+      lineId+=1;
+
+      if(lineId === currentParentId){
+        currentParentId = annotArr[0] ? annotArr.shift().parent_id : 0;
+        return (
+          <span onClick={this.handleAnnotationClick} key={`key${lineId}`} id={`${lineId}`} className="annot">
+            {line}
+            <br/>
+          </span>
+        );
+      } else {
+         return (
+          <span key={`key${lineId}`} id={`${lineId}`} className="">
+            {line}
+            <br/>
+          </span>
+        );
+      }
+    });
+
+    return newLyrics;
   }
 
   render(){
-    let selectedAnnotation =[];
-    if(this.props.track){
-      selectedAnnotation = this.props.track.annotations.forEach((annot) => {
-        if (annot.id === this.state.annotationId){
-          return annot;
-        }
-      });
-    }
+
     const {track, children} = this.props;
     const lyrics = track.lyrics || "";
+    let lineId = 0;
     return (
       <div>
         <div className="track-display">
@@ -129,14 +168,7 @@ class TrackShow extends React.Component {
             <span className="track-show-artist">{track.artist}</span>
             <span className="track-show-description">{track.description}</span>
             <span className="track-show-lyrics" onMouseUp={this.showAnnotationButton}>
-              {lyrics.split('\n').map(function(line) {
-                return (
-                  <span>
-                    {line}
-                    <br/>
-                  </span>
-                );
-              })}
+              {this.formattedLyrics()}
             </span>
           </p>
         </div>
@@ -149,8 +181,10 @@ class TrackShow extends React.Component {
               endIdx={this.state.endIdx}
               annotationPosition={this.state.annotationPosition}
               track={this.props.track}
-              selectedAnnotation={selectedAnnotation}
-              setVisible={this.setVisible}/>
+              setVisible={this.setVisible}
+              parentId={this.state.parentId}
+              selectedAnnotation={this.state.selectedAnnotation}
+              resetState={this.resetState}/>
           </div>
       </div>
 

@@ -6,10 +6,6 @@
   top: 15px;
 }
 
-.annot{
-  background-color: #ffff64;
-}
-
 .annot-button-container{
   display: block;
   position: absolute;
@@ -124,4 +120,44 @@
   color: #2ab1f9;
   border-width: thin;
   border-color: #2ab1f9;
+}
+
+.annot{
+  background-color: #ffff64;
+}
+
+.annot:hover{
+  background-color: #ffffcc;
+  cursor: pointer;
+  border: solid;
+  border-color: #ffffcc;
+  border-radius: .5px;
+}
+
+.annot-show{
+  display: block;
+  position: absolute;
+  background-color: #383838;
+  min-width: 300px;
+  min-height: 200px;
+  justify-content: center;
+}
+
+.annot-show-head{
+  display: block;
+  position: relative;
+  left: 15px;
+  top: 10px;
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.annot-show-body{
+  display: block;
+  position: relative;
+  left: 15px;
+  top: 15px;
+  font-size: 24px;
+  color: #ffff64;
+  max-width: 90%;
 }

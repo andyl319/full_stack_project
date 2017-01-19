@@ -23,8 +23,10 @@ class Annotation extends React.Component {
       start_idx: this.props.startIdx,
       end_idx: this.props.endIdx,
       track_id: this.props.trackId,
-      body: this.state.body
+      body: this.state.body,
+      parent_id: this.props.parentId
     };
+    this.props.resetState();
     this.props.createAnnotation(annotation);
     this.props.setVisible("");
   }
@@ -45,9 +47,8 @@ class Annotation extends React.Component {
 
     if(this.props.visible === "button") {
       annotationShow = (
-        <span style={pos} className="annot-button-container">
-          <a onClick={this.openForm}
-            className="annot-button">
+        <span style={pos} onClick={this.openForm} className="annot-button-container">
+          <a className="annot-button">
             Click to begin Annotation!
           </a>
         </span>
@@ -76,11 +77,11 @@ class Annotation extends React.Component {
         </span>
       );
     } else if (this.props.visible === "annot") {
-      const annot = this.props.selectedAnnotation;
+      let annot = this.props.selectedAnnotation;
       annotationShow = (
         <div style={pos} className="annot-show">
-          <a className="annot-author">Annotation submitted by: {annot.author_id}</a>
-          <a className="annot-body">{annot.body}</a>
+          <a className="annot-show-head">Decipher annotation:</a>
+          <a className="annot-show-body">{annot.body}</a>
         </div>
       );
     }

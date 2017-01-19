@@ -18,6 +18,11 @@ class User < ActiveRecord::Base
     foreign_key: :author_id,
     class_name: 'Annotation'
 
+  has_many :track_comments,
+    primary_key: :id,
+    foreign_key: :author_id,
+    class_name: 'TrackComment'
+
   def self.find_by_credentials(username, password)
     user = User.find_by(username: username)
     if user && user.is_password?(password)
