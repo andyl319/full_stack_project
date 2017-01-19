@@ -4,4 +4,5 @@ json.extract! @annotation,
   :track_id,
   :start_idx,
   :end_idx,
-  :body
+  :body,
+  :parent_id

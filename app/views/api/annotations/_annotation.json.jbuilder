@@ -5,5 +5,5 @@ json.extract! annotation,
   :start_idx,
   :end_idx,
   :body,
+  :parent_id,
   :created_at
-end

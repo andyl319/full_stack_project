@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 
 const TrackDisplayItem = ({track, router}) => {
   return (
-    <li className="track-display-item">
+    <span className="track-display-item">
       <Link to={`/tracks/${track.id}`}>
         <img src={track.cover_art} alt={track.title} className="cover-art" />
         <li className="track-display-id">{track.id}</li>
@@ -14,7 +14,7 @@ const TrackDisplayItem = ({track, router}) => {
           <li className="track-display-description">{track.description}</li>
         </ul>
       </Link>
-    </li>
+    </span>
 
   );
 };
