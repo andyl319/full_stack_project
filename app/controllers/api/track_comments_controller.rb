@@ -6,11 +6,12 @@ class Api::TrackCommentsController < ApplicationController
   end
 
   def create
+    @track = Track.find(params[:track_id])
     @track_comment = TrackComment.new(track_comment_params)
-    @track_comments = TrackComments.track.track_comments
+    @track_comments = @track.track_comments
 
     if @track_comment.save
-      render :index
+      render :show
     else
       render json: @track_comment.errors.full_messages
     end
@@ -25,6 +26,6 @@ class Api::TrackCommentsController < ApplicationController
   private
 
   def track_comment_params
-    params.require(:track_comment).permit(:author_id, :track_id, :body)
+    params.require(:trackComment).permit(:author_id, :track_id, :body)
   end
 end

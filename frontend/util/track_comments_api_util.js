@@ -5,10 +5,10 @@ export const fetchAllTrackComments = track_id => {
   });
 };
 
-export const createTrackComment = trackComment => (
-  $.ajax({
+export const createTrackComment = trackComment => {
+  return $.ajax({
     method: "POST",
     url: `/api/tracks/${trackComment.track_id}/track_comments`,
     data: {trackComment}
-  })
-);
+  });
+};
