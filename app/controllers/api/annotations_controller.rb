@@ -7,6 +7,7 @@ class Api::AnnotationsController < ApplicationController
 
   def show
     @annotation = Annotation.find(params[:id])
+    @numvotes = @annotation.score
     render :show
   end
 
@@ -25,6 +26,20 @@ class Api::AnnotationsController < ApplicationController
     @annotation = Annotation.find(params[:id])
     @annotation.destroy
     render 'api/tracks/show'
+  end
+
+  def upvote
+    @annotation = Annotation.find(params[:id])
+    @annotation.updateVote(current_user, 1)
+    @numvotes = @annotation.score
+    render :show
+  end
+
+  def downvote
+    @annotation = Annotation.find(params[:id])
+    @annotation.updateVote(current_user, -1)
+    @numvotes = @annotation.score
+    render :show
   end
 
   private

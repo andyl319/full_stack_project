@@ -1,12 +1,20 @@
-import {RECEIVE_NEW_ANNOTATION,
-        RECEIVE_ALL_ANNOTATIONS} from '../actions/annotation_actions';
+import {RECEIVE_ANNOTATION} from '../actions/annotation_actions';
 
 import merge from 'lodash/merge';
 
-const AnnotationReducer = (state={}, action) => {
+let nullState = {
+  annotation: {}
+};
+
+const AnnotationReducer = (state=nullState, action) => {
   Object.freeze(state);
   switch(action.type){
+    case RECEIVE_ANNOTATION:
+      let test = merge({}, state, {annotation: action.annotation});
+      return test;
     default:
       return state;
   }
 };
+
+export default AnnotationReducer;

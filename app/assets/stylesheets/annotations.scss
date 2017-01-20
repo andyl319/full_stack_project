@@ -148,19 +148,64 @@
 
 .annot-show-head{
   display: block;
-  position: relative;
-  left: 15px;
-  top: 10px;
+  position: absolute;
+  left: 15%;
+  top: 35%;
   font-size: 14px;
   color: #cccccc;
 }
 
 .annot-show-body{
   display: block;
-  position: relative;
-  left: 15px;
-  top: 15px;
+  position: absolute;
+  left: 15%;
+  top: 50%;
   font-size: 24px;
   color: #ffff64;
   max-width: 90%;
+}
+
+.icon-up{
+  display: flex;
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  font-size: 30px;
+  color: #2ab1f9;
+}
+.icon-down{
+  display: flex;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  font-size: 30px;
+  color: #2ab1f9;
+}
+
+.icon-up:hover{
+  cursor: pointer;
+  color: green;
+}
+
+.icon-down:hover{
+  cursor: pointer;
+  color: red;
+}
+
+.annot-votes{
+  display: flex;
+  position: absolute;
+  color: #ffff64;
+  font-size: 18px;
+  top: 11%;
+  left: 6%;
+}
+
+.upvotes{
+  display: flex;
+  position: absolute;
+  color: #cccccc;
+  font-size: 12px;
+  top: 11%;
+  left: 15%;
 }

@@ -6,3 +6,5 @@ json.extract! @annotation,
   :end_idx,
   :body,
   :parent_id
+
+json.votes @numvotes

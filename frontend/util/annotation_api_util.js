@@ -15,16 +15,31 @@ export const deleteAnnotation = (annotation) => (
   })
 );
 
-// export const fetchAnnotation = (annotationId) => (
-//   $.ajax({
-//     method: "GET",
-//     url: `/api/tracks/${annotation.track_id}/annotations/${annotation.id}`
-//   })
-// );
 
 export const fetchAllAnnotations = (track_id) => (
   $.ajax({
     method: "GET",
     url: `/api/tracks/${track_id}/annotations`
+  })
+);
+
+export const upVoteAnnotation = (track_id, annot_id) => (
+  $.ajax({
+    method: 'POST',
+    url: `/api/tracks/${track_id}/annotations/${annot_id}/upvote`,
+  })
+);
+
+export const downVoteAnnotation = (track_id, annot_id) => (
+  $.ajax({
+    method: 'POST',
+    url: `/api/tracks/${track_id}/annotations/${annot_id}/downvote`,
+  })
+);
+
+export const fetchAnnotation = (annotation) => (
+  $.ajax({
+    method: "GET",
+    url: `/api/tracks/${annotation.track_id}/annotations/${annotation.id}`
   })
 );

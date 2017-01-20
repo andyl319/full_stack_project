@@ -10,6 +10,7 @@ const RootReducer = combineReducers({
   tracks: TrackReducer,
   track: TrackShowReducer,
   trackComment: TrackCommentReducer,
+  annotation: AnnotationReducer
 });
 
 
