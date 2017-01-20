@@ -8,5 +8,6 @@
       :end_idx,
       :body,
       :parent_id
+    json.votes annotation.score
     end
   end

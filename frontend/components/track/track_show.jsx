@@ -43,12 +43,14 @@ class TrackShow extends React.Component {
 
   handleAnnotationClick(e){
     e.preventDefault();
+    let that = this
     let selectedAnnotation ={};
     if(this.props.track){
       this.props.track.annotations.forEach(annot => {
 
         if (annot && annot.parent_id === parseInt(e.target.id)){
           selectedAnnotation = annot;
+          that.props.requestAnnotation(annot);
           return;
         }
       });

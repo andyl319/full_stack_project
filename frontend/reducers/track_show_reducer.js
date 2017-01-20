@@ -12,7 +12,8 @@ const nullState = {
   lyrics: "",
   cover_art: "",
   youtube_url: "",
-  annotations: []
+  annotations: [],
+  annotation: {}
 };
 
 const TrackShowReducer = (state = nullState, action) => {

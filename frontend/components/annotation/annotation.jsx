@@ -8,7 +8,10 @@ class Annotation extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
     this.openForm = this.openForm.bind(this);
     this.handleCancel = this.handleCancel.bind(this);
+    this.handleUpVote = this.handleUpVote.bind(this);
+    this.handleDownVote = this.handleDownVote.bind(this);
   }
+
 
   update(field){
     return e => this.setState({
@@ -41,6 +44,16 @@ class Annotation extends React.Component {
     this.props.setVisible("");
   }
 
+  handleUpVote(e){
+    e.preventDefault();
+    this.props.upVote(this.props.trackId, this.props.selectedAnnotation.id);
+  }
+
+  handleDownVote(e){
+    e.preventDefault();
+    this.props.downVote(this.props.trackId, this.props.selectedAnnotation.id);
+  }
+
   render() {
     const pos = {position: "absolute", top: this.props.annotationPosition};
     let annotationShow;
@@ -63,7 +76,6 @@ class Annotation extends React.Component {
             <label className="annot-body">Body: &nbsp;&nbsp;
               <textarea type="text"
                 className="annot-input"
-                value=""
                 onChange={this.update("body")} ></textarea>
             </label>
             <br/>
@@ -77,11 +89,14 @@ class Annotation extends React.Component {
         </span>
       );
     } else if (this.props.visible === "annot") {
-      let annot = this.props.selectedAnnotation;
       annotationShow = (
         <div style={pos} className="annot-show">
           <a className="annot-show-head">Decipher annotation:</a>
-          <a className="annot-show-body">{annot.body}</a>
+          <a className="annot-show-body">{this.props.annotation.annotation.body}</a>
+          <a className="annot-votes">{this.props.annotation.annotation.votes}</a>
+          <a className="upvotes">Upvote(s)</a>
+          <a className="icon-up" onClick={this.handleUpVote}>^</a>
+          <a className="icon-down" onClick={this.handleDownVote}>v</a>
         </div>
       );
     }
