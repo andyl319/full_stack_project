@@ -28,6 +28,7 @@ class Annotation extends React.Component {
     };
     this.props.createAnnotation(annotation);
     this.props.setVisible("");
+    document.getElementById("annot-input").value = "";
   }
 
   openForm(e){

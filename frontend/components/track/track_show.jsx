@@ -76,10 +76,10 @@ class TrackShow extends React.Component {
       startIdx = endIdx;
       endIdx = temp;
     }
-    while(parent.previousSibling){
-      startIdx += parent.previousSibling.innerText.length;
-      endIdx += parent.previousSibling.innerText.length;
-      parent = parent.previousSibling;
+    while(document.getElementById(`${parseInt(parent.id)-1}`)){
+      startIdx += document.getElementById(`${parseInt(parent.id)-1}`).innerText.length;
+      endIdx += document.getElementById(`${parseInt(parent.id)-1}`).innerText.length;
+      parent = document.getElementById(`${parseInt(parent.id)-1}`);
     }
     const lyrics = this.props.track.lyrics.slice(startIdx, endIdx);
     return ({

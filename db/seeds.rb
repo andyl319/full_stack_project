@@ -115,7 +115,7 @@ In Oakland, in Oakland
 In Oakland, in Oakland
 In Oakland, in Oakland",
   cover_art: "https://images.genius.com/54176aed36cb6114bc46f0b70b8b02b3.1000x1000x1.jpg",
-  youtube_url: "https://www.youtube.com/v/NPQCra8FEew"
+  youtube_url: "https://player.vimeo.com/video/109198422"
 )
 
 beings = Track.create(
@@ -160,7 +160,7 @@ We’ll become who we're meant to be
 We’ll become who we're meant because I know
 We’ll become who we're meant to be",
   cover_art: "https://images.genius.com/c19df9e79cbdf69a0c00fe8f06598a0a.960x960x1.jpg",
-  youtube_url: "https://www.youtube.com/v/tAhT6kFWkAo"
+  youtube_url: "https://player.vimeo.com/video/125408489"
 )
 
 all_of_me = Track.create(
@@ -236,7 +236,7 @@ And you give me all of you
 I give you all of me
 And you give me all of you",
   cover_art: "http://images.genius.com/e95068be211e9b806bba3f57a14c7100.1000x994x1.jpg",
-  youtube_url: "https://www.youtube.com/watch?v=450p7goxZqg"
+  youtube_url: "https://player.vimeo.com/video/75674486?color=c2c2c2&byline=0&portrait=0"
 )
 
 good_morning = Track.create(
@@ -313,7 +313,7 @@ Get, get on down
 Get on down
 Get, get on down",
   cover_art: "http://images.genius.com/ba625221903afea7b1856226a3b03cfe.1000x1000x1.jpg",
-  youtube_url: "https://www.youtube.com/v/tAhT6kFWkAo"
+  youtube_url: "http://vevo.ly/sBU6vF"
 )
 
 purpose = Track.create(
@@ -371,7 +371,7 @@ You can’t be hard on yourself for it, these are the cards you were given so yo
 
 That’s what happening with me, it’s like “God, I’m giving it all I’ve got, sometimes I’m weak and I’m going to do it.” And it’s like I’m not giving myself grace, I’m just like understanding that’s how it is",
   cover_art: "http://images.genius.com/626766c70d96b981e035d97af83e3516.1000x1000x1.jpg",
-  youtube_url: "https://www.youtube.com/watch?v=Ca1i6DZC3iY"
+  youtube_url: "https://youtu.be/Ca1i6DZC3iY"
 )
 
 black_friday = Track.create(
@@ -420,7 +420,7 @@ You're a sky full of stars
 Such heavenly view
 You're such a heavenly view (yeah, yeah, yeah, yeah)",
   cover_art: "https://images.genius.com/bed060b37dec8fa4eee79aad0784076e.1000x1000x1.jpg",
-  youtube_url: "https://www.youtube.com/watch?v=VPRjCeoBqrI"
+  youtube_url: "https://youtu.be/VPRjCeoBqrI"
 )
 
 test1 = Annotation.create(
@@ -432,8 +432,182 @@ test1 = Annotation.create(
   parent_id: 1
 )
 
+test2 = Annotation.create(
+  author_id: 2,
+  track_id: 1,
+  body: "He's driving from LA to Oakland! (NorCal FTW)",
+  start_idx: 86,
+  end_idx: 110,
+  parent_id: 5
+)
+
+test3 = Annotation.create(
+  author_id: 3,
+  track_id: 1,
+  body: "Everything he wants is just a drive away...in Oakland. Is it worth it?",
+  start_idx: 162,
+  end_idx: 187,
+  parent_id: 8
+)
+
+test4 = Annotation.create(
+  id: 4,
+  author_id: 7,
+  track_id: 1,
+  body:
+   "Gambino will turn around if she tells him to but as of now he's lonely and thinks about her",
+  start_idx: 297,
+  end_idx: 331,
+  parent_id: 12
+)
+
+test5 = Annotation.create(
+  id: 5,
+  author_id: 7,
+  track_id: 2,
+  body: "He would give up everything he's worked so hard for just to be with her.",
+  start_idx: 113,
+  end_idx: 143,
+  parent_id: 5
+)
+
+test6 = Annotation.create(
+  id: 6,
+  author_id: 7,
+  track_id: 2,
+  body:
+   "He knows she's scared of the idea of them being together, but in the end they'll be who they were meant to be.",
+  start_idx: 231,
+  end_idx: 274,
+  parent_id: 10
+)
+
+test7 = Annotation.create(
+  id: 7,
+  author_id: 7,
+  track_id: 2,
+  body: "Together!",
+  start_idx: 713,
+  end_idx: 747,
+  parent_id: 30
+)
+
+test8 = Annotation.create(
+  id: 8,
+  author_id: 7,
+  track_id: 2,
+  body: "Together!!",
+  start_idx: 748,
+  end_idx: 791,
+  parent_id: 31
+)
+
+test9 = Annotation.create(
+  id: 9,
+  author_id: 7,
+  track_id: 2,
+  body: "Together!! Together!!",
+  start_idx: 792,
+  end_idx: 826,
+  parent_id: 32
+)
+
+test10 = Annotation.create(
+  id: 10,
+  author_id: 7,
+  track_id: 2,
+  body: "So much passion",
+  start_idx: 154,
+  end_idx: 195,
+  parent_id: 8
+)
+
+test11 = Annotation.create(
+  id: 11,
+  author_id: 7,
+  track_id: 4,
+  body: "kanye  loves kanye",
+  start_idx: 122,
+  end_idx: 169,
+  parent_id: 11
+)
+
+test12 = Annotation.create(
+  id: 12,
+  author_id: 7,
+  track_id: 4,
+  body: "We passed!!! ",
+  start_idx: 251,
+  end_idx: 296,
+  parent_id: 14
+)
+
+test13 = Annotation.create(
+  id: 13,
+  author_id: 7,
+  track_id: 4,
+  body: "LOVELOVELOVE THIS SONG",
+  start_idx: 0,
+  end_idx: 7,
+  parent_id: 1
+
+)
+
 comment1 = TrackComment.create(
+  id: 4,
+  author_id: 4,
+  track_id: 1,
+  body: "Gambino will turn around if she tells him to but as of now he's lonely and thinks about her",
+  start_idx: 297,
+  end_idx: 331,
+  parent_id: 12
+)
+
+comment1 = TrackComment.create(
+  id: 1,
   author_id: 1,
   track_id: 1,
   body: "Have ya'll seen Atlanta yet?!"
+)
+
+comment2 = TrackComment.create(
+  id: 1,
+  author_id: 2,
+  track_id: 1,
+  body: "It was awesome! Childish Gambino is the best!"
+)
+
+comment3 = TrackComment.create(
+  id: 1,
+  author_id: 3,
+  track_id: 1,
+  body: "Who are the 5 best rappers alive?"
+)
+
+comment4 = TrackComment.create(
+  id: 1,
+  author_id: 4,
+  track_id: 1,
+  body: "Bino, Bino, Bino, Bino, and Bino! Cause he spits hot fire!"
+)
+
+comment5 = TrackComment.create(
+id: 1,
+author_id: 5,
+track_id: 2,
+body: "I like this song"
+)
+
+comment6 = TrackComment.create(
+id: 1,
+author_id: 6,
+track_id: 1,
+body: "Who is Madeon?"
+)
+
+comment7 = TrackComment.create(
+id: 1,
+author_id: 5,
+track_id: 1,
+body: "You must be slow...he's only the best EDM artist!"
 )
