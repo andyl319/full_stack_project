@@ -95,3 +95,20 @@
   border-color: #2ab1f9;
   font-size: 14px;
 }
+
+.foot{
+  display: flex;
+  position: relative;
+  min-width: 98%;
+  min-height: 50px;
+  background-color: black;
+  top: 100px;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.footer{
+  position: relative;
+  top: 50%;
+  transform: translateY(40%)
+}
