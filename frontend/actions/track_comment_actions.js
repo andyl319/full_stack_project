@@ -7,7 +7,7 @@ export const DELETE_TRACK_COMMENT = 'DELETE_TRACK_COMMENT';
 export const createTrackComment = trackComment => dispatch => (
   APIUtil.createTrackComment(trackComment)
     .then(trackComment => {
-      dispatch(receiveNewTrackComment());
+      dispatch(receiveNewTrackComment(trackComment));
       return trackComment;
     })
 );

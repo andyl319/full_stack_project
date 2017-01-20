@@ -10,7 +10,7 @@ const TrackCommentReducer = (state = nullState, action) => {
   Object.freeze(state);
   switch(action.type) {
     case RECEIVE_ALL_TRACK_COMMENTS:
-      return merge({}, state, {trackComments: action.trackComments});
+      return merge({}, {trackComments: action.trackComments});
     case RECEIVE_NEW_TRACK_COMMENT:
       return merge({}, state, {trackComments: [...state.trackComments, action.trackComment]});
     default:

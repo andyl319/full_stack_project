@@ -6,7 +6,7 @@ import {createTrackComment,
 const mapStateToProps = (state) => ({
   track: state.track,
   currentUser: state.session.currentUser,
-  trackComments: state.trackComments
+  trackComments: state.trackComment.trackComments
 });
 
 const mapDispatchToProps = dispatch => ({

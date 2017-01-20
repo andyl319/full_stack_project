@@ -45,7 +45,6 @@ class TrackShow extends React.Component {
     e.preventDefault();
     let selectedAnnotation ={};
     if(this.props.track){
-      this.props.track.annotations.slice();
       this.props.track.annotations.forEach(annot => {
 
         if (annot && annot.parent_id === parseInt(e.target.id)){
@@ -121,6 +120,9 @@ class TrackShow extends React.Component {
   }
 
   formattedLyrics(){
+    if(!this.props.track){
+      return;
+    }
     let lyrics = this.props.track.lyrics || "";
     let annotArr = this.props.track.annotations.slice() || [];
     annotArr.sort(function(a,b){
@@ -136,17 +138,21 @@ class TrackShow extends React.Component {
       if(lineId === currentParentId){
         currentParentId = annotArr[0] ? annotArr.shift().parent_id : 0;
         return (
+          <span className="lyric-line">
           <span onClick={this.handleAnnotationClick} key={`key${lineId}`} id={`${lineId}`} className="annot">
             {line}
             <br/>
           </span>
+        </span>
         );
       } else {
          return (
+           <span className="lyric-line">
           <span key={`key${lineId}`} id={`${lineId}`} className="">
             {line}
             <br/>
           </span>
+        </span>
         );
       }
     });
@@ -173,6 +179,7 @@ class TrackShow extends React.Component {
               {this.formattedLyrics()}
             </span>
           </p>
+
         </div>
         <div className="annotation-container">
             <AnnotationContainer
@@ -187,6 +194,7 @@ class TrackShow extends React.Component {
               parentId={this.state.parentId}
               selectedAnnotation={this.state.selectedAnnotation}
               resetState={this.resetState}/>
+
           </div>
           {children}
       </div>

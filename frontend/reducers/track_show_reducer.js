@@ -19,9 +19,10 @@ const TrackShowReducer = (state = nullState, action) => {
   Object.freeze(state);
   switch(action.type) {
     case RECEIVE_TRACK:
-      return merge({}, state, action.track);
+      return merge({}, nullState, action.track);
     case RECEIVE_ALL_ANNOTATIONS:
       let test = merge({}, state, {annotations: action.annotations});
+      debugger
       return test;
     case RECEIVE_NEW_ANNOTATION:
       let test2 =  merge({}, state);
