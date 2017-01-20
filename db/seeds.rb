@@ -16,151 +16,135 @@ guest = User.create(username: 'guest', password: 'abc123')
 
 telegraphAve = Track.create(
   user_id: 1,
-  title: "Telegraph Ave",
+  title: "Sober",
   artist: "Childish Gambino",
-  album: "Because the Internet",
-  description: "Telegraph Ave is the 7'th track on Childish Gambino's
-    2'nd studio album title Because the Internet",
-  lyrics: "[Verse 1: Lloyd]
-I was making Japanese
-And she's watching DVDs
-In Oakland, in Oakland
-Now I'm driving up the 5
-And she waits till I arrive
-In Oakland, in Oakland
-Everything, that I wanted
-Only gotta drive for the moment
-If you tell me 'turn around,' then I'm on it
-For the moment, but you know me
-You know how I get when I'm lonely
-And I think about you and the moments
-But everything you do is so Oakland, so Oakland
+  album: "STN MTN/Kauai EP",
+  description: "Sober was the first track released by Childish
+  Gambino as part of his Kauai EP",
+  lyrics: "[Hook]
+And now that's it's over, I'll never be sober
+I couldn't believe, but now I'm so high
+And now that's it's over, I'll never be sober
+I couldn't believe, but now I'm so high
+Now I'm so high
+Now I'm so high
+Now I'm so high
 
-[Hook 1: Lloyd]
-Foot on the gas
-I'm just trying to pass
-All the red lights
-And the stop signs
-I'm ready to go
-Before I get to The Bay
-Babe, that's a problem
-Because I'm way too scared to call
-And you might get me to stay, and oh
+[Verse 1]
+Girl, what's your problem
+Cause I know it's hard sometimes, baby just give it some time
+Oh honey now girl, we can solve them
+If you just give me some time I can open up your mind
+If you le-le-let it shine, you can free-ee-ee your mind
+Cause I know
 
-[Post-Hook: Childish Gambino and Lloyd]
-I don't really mind the drive
-But I think I'd rather die
-In Oakland, in Oakland
-With my hands on two and ten
-So I guess it all depends
-On Oakland, on Oakland
-And I'm nervous, truth be told
-I never saw me growing old
-In Oakland, in Oakland
-And if I married you tonight
-It would probably start a riot
-In Oakland, in Oakland
+[Hook]
+And now that's it's over, I'll never be sober
+I couldn't believe, but now I'm so high
+And now that's it's over, I'll never be sober
+I couldn't believe, but now I'm so high
+Now I'm so high
+Now I'm so high
+Now I'm so high
 
-[Verse 2: Lloyd]
-Everything, that I needed
-Now that I got you in your feelings
-Everything you won't say, you tweet it
-And a nigga don’t like that shit at all
-So treated
-Can we just roll with the feeling?
-Can we just roll for a minute?
-Wait a minute
+[Verse 2]
+Girl, if it's done right
+Well you know it's got to be, something wonderful to me
+Oh honey now girl, give it one night
+If you just give it a chance, loving you is not my plan
+Cause I know one day you'll see
+All the things that we can be
+No, no, no...
 
-[Hook 2: Lloyd]
-Foot on the gas
-I'm just trying to pass
-All the red lights
-And the stop signs
-I'm ready to go
-But I'm really not ready, girl
-That's a problem
-Cause I'm way too scared to fall
-And I know you choose to stay, and oh
+[Bridge]
+And now that's it's over, I'll never be sober
+(I want to be the only one)
+I couldn't believe, but now I'm so high
+And now that's it's over, I'll never be sober
+I couldn't believe, but now I'm so high
+But now I'm so
+(Now I'm so high)
+(Now I'm so high)
+(Now I'm so high)
+(Now I'm so high)
+(Now I'm so high)
+(Now I'm so high...)
 
-[Verse 3: Childish Gambino]
-All the girlfriends saying 'here we go again'
-Rich kid but he act like a gentleman
-Last one didn't end like it should've been
-Two dates and he still wanna get it in
-And they're saying it's because of the Internet
-Try her once and it's on to the next chick
-X-O the O face on your exes...right?
-And we can do the same thing if you wanna have at it
-When your thoughts can't breathe and you thinking asthmatic
-And you wanna be a mom and I wasn't mad at it
-I was thinking 'bout me, I'd be really bad at it
-Cause I'm thinking 'bout me, weeks in Dubai
-Fourth of July, house in Kauai, yeah we can try
-So let's try
-
-[Outro: Lloyd]
-Whoa
-I took off my nine to five
-But you still don't have the time to kiss me, just hit me
-And if I left you all alone, would you still pick up the phone?
-It's iffy, you miss me
-I got furniture to move
-And we'll both be thirty soon
-In Oakland, in Oakland
-The only one I know is you, so the f*** I'm supposed to do?
-In Oakland, in Oakland
-In Oakland, in Oakland
-In Oakland, in Oakland
-In Oakland, in Oakland
-In Oakland, in Oakland
-In Oakland, in Oakland",
-  cover_art: "https://images.genius.com/54176aed36cb6114bc46f0b70b8b02b3.1000x1000x1.jpg",
-  youtube_url: "https://player.vimeo.com/video/109198422"
+[Outro]
+And now that's it's over, I'll never be sober
+I couldn't believe, but now I'm so high
+Now I'm so high
+Now I'm so high
+Now I'm so high
+Now I'm so high
+Now I'm so high...",
+  cover_art: "https://images.genius.com/27f3fed1aa4501be7ffe2f5d46237604.500x500x1.jpg",
+  youtube_url: "https://player.vimeo.com/video/116634367"
 )
 
 beings = Track.create(
   user_id: 2,
-  title: "Beings",
+  title: "You're On",
   artist: "Madeon",
   album: "Adventure",
-  description: "Beings is the 6'th track on Madeon's debut album
-    entitled 'Adventure'.",
-  lyrics: "[Verse 1]
-These will be times that I will miss
-Don’t blame me if I don’t come through
-I spent a lifetime on this
-But I would give it up for you
+  description: "The 2'nd single off Madeon's debut album entitled
+  'Adventure'.",
+  lyrics: "[Chorus 1]
+Tell me whose side you're on
+Tell me whose side you're on
+You're on, you're on
+Tell me whose side you're on
 
-[Chorus]
-Because I know what you do out of passion
-But it only makes it harder for me
-And I know that you’re scared by the notion
-We’ll become who we're meant to be
+[Verse 1]
+You have some nerve showing your face here
+It had been so long, I thought you disappeared
+Why'd you pretend that we’re still so close
+When it’s all too clear who you need the most
+
+[Chorus 2]
+But damn girl, since you come around girl
+I need to know right now so won't you just
+Tell me whose side you're on
+Lately, I felt the chance that
+Maybe, you could become my baby
+If you just tell me whose side you’re on
+
+[Chorus 1]
+Tell me whose side you're on
+Tell me whose side you're on
+You're on, you're on
+Tell me whose side you're on
 
 [Verse 2]
-Fall in the hands of a greater unknown
-Let me be there
-And tell me if you need time to prepare
-All we’ll demand is the world
+It's been so long since I heard your name
+I was losing hope, that you felt the same
+And it's been so long since I'd seen your face
+That in my own mind, I had been replaced
+So won't you just
 
-[Chorus]
-Because I know what you do out of passion
-But it only makes it harder for me
-And I know that you’re scared by the notion
-We’ll become who we're meant to be
+[Chorus 2]
+But damn girl, since you come around girl
+I need to know right now so won't you just
+Tell me whose side you're on
+Lately, I felt the chance that
+Maybe, you could become my baby
+If you just tell me whose side you’re on
 
-[Outro]
-Oh what we meant to be
-Oh what we meant to be
-Oh what we meant to be
-Oh what we meant to be
-We’ll become who we're meant to be
-We’ll become who we're meant because I know
-We’ll become who we're meant to be
-We’ll become who we're meant because I know
-We’ll become who we're meant to be",
-  cover_art: "https://images.genius.com/c19df9e79cbdf69a0c00fe8f06598a0a.960x960x1.jpg",
-  youtube_url: "https://player.vimeo.com/video/125408489"
+[Chorus 1]
+Tell me whose side you're on
+Tell me whose side you're on
+You're on, you're on
+Tell me whose side you're on
+
+[Chorus 2]
+But damn girl, since you come around girl
+I need to know right now so won't you just
+Tell me whose side you're on
+Lately, I felt the chance that
+Maybe, you could become my baby
+If you just tell me whose side you’re on",
+  cover_art: "http://images.genius.com/61213e6f948dbec9e6f50f261e018b39.1000x1000x1.png",
+  youtube_url: "https://youtu.be/xp0NOjZlNlo"
 )
 
 all_of_me = Track.create(
@@ -246,15 +230,7 @@ good_morning = Track.create(
   album: "Graduation",
   description: "Good Morning was the first track off Kanye West's
   3'rd album entitled 'Graduation'.",
-  lyrics: "[Intro]
-Uhh.. uhh
-Uhh.. uhh
-Good morning!
-Good morning!
-Good morning!
-Good morning!
-
-[Verse 1]
+  lyrics: "[Verse 1]
 Wake up Mr. West, Mr. West
 Mr. Fresh, Mister, by himself he's so impressed
 I mean damn, did you even see the test?
@@ -433,181 +409,167 @@ test1 = Annotation.create(
 )
 
 test2 = Annotation.create(
-  author_id: 2,
-  track_id: 1,
-  body: "He's driving from LA to Oakland! (NorCal FTW)",
-  start_idx: 86,
-  end_idx: 110,
-  parent_id: 5
+author_id: 2,
+track_id: 1,
+body: "Pretty hard to believe",
+  start_idx: 53,
+  end_idx: 71,
+  parent_id: 3
 )
 
 test3 = Annotation.create(
-  author_id: 3,
+author_id: 3,
   track_id: 1,
-  body: "Everything he wants is just a drive away...in Oakland. Is it worth it?",
-  start_idx: 162,
-  end_idx: 187,
-  parent_id: 8
-)
-
-test4 = Annotation.create(
-  id: 4,
-  author_id: 7,
-  track_id: 1,
-  body:
-   "Gambino will turn around if she tells him to but as of now he's lonely and thinks about her",
-  start_idx: 297,
-  end_idx: 331,
-  parent_id: 12
-)
-
-test5 = Annotation.create(
-  id: 5,
-  author_id: 7,
-  track_id: 2,
-  body: "He would give up everything he's worked so hard for just to be with her.",
-  start_idx: 113,
-  end_idx: 143,
-  parent_id: 5
-)
-
-test6 = Annotation.create(
-  id: 6,
-  author_id: 7,
-  track_id: 2,
-  body:
-   "He knows she's scared of the idea of them being together, but in the end they'll be who they were meant to be.",
-  start_idx: 231,
-  end_idx: 274,
-  parent_id: 10
-)
-
-test7 = Annotation.create(
-  id: 7,
-  author_id: 7,
-  track_id: 2,
-  body: "Together!",
-  start_idx: 713,
-  end_idx: 747,
-  parent_id: 30
-)
-
-test8 = Annotation.create(
-  id: 8,
-  author_id: 7,
-  track_id: 2,
-  body: "Together!!",
-  start_idx: 748,
-  end_idx: 791,
-  parent_id: 31
-)
-
-test9 = Annotation.create(
-  id: 9,
-  author_id: 7,
-  track_id: 2,
-  body: "Together!! Together!!",
-  start_idx: 792,
-  end_idx: 826,
-  parent_id: 32
-)
-
-test10 = Annotation.create(
-  id: 10,
-  author_id: 7,
-  track_id: 2,
-  body: "So much passion",
-  start_idx: 154,
-  end_idx: 195,
-  parent_id: 8
-)
-
-test11 = Annotation.create(
-  id: 11,
-  author_id: 7,
-  track_id: 4,
-  body: "kanye  loves kanye",
-  start_idx: 122,
-  end_idx: 169,
+  body: "What is it?!",
+  start_idx: 238,
+  end_idx: 263,
   parent_id: 11
 )
 
-test12 = Annotation.create(
-  id: 12,
-  author_id: 7,
-  track_id: 4,
-  body: "We passed!!! ",
-  start_idx: 251,
-  end_idx: 296,
-  parent_id: 14
+test4 = Annotation.create(
+author_id: 4,
+  track_id: 1,
+  body: "Solve! E=MC^2 ",
+  start_idx: 326,
+  end_idx: 362,
+  parent_id: 13
+
 )
 
-test13 = Annotation.create(
-  id: 13,
+test5 = Annotation.create(
+  author_id: 1,
+  track_id: 1,
+  body: "I-I-I LU-LU-LUV THIS SONG",
+  start_idx: 417,
+  end_idx: 472,
+  parent_id: 15
+)
+
+test6 = Annotation.create(
+  author_id: 7,
+  track_id: 1,
+  body: "CLOUD9",
+  start_idx: 179,
+  end_idx: 194,
+  parent_id: 6
+)
+
+test7 = Annotation.create(
+  author_id: 7,
+  track_id: 2,
+  body: "JUST TELL ME!!!",
+  start_idx: 11,
+  end_idx: 39,
+  parent_id: 2
+)
+
+test8 = Annotation.create(
+  author_id: 7,
+  track_id: 2,
+  body: "She was long gone. It's like she didn't even exist.",
+  start_idx: 173,
+  end_idx: 219,
+  parent_id: 9
+)
+
+test9 = Annotation.create(
+  author_id: 7,
+  track_id: 2,
+  body: "She didn't value the relationship as much as Madeon",
+  start_idx: 220,
+  end_idx: 263,
+  parent_id: 10
+)
+
+test10 = Annotation.create(
+  author_id: 7,
+  track_id: 2,
+  body:
+   "Madeon likes her but needs to know if she is truly in it so he won't get hurt",
+  start_idx: 467,
+  end_idx: 498,
+  parent_id: 18
+)
+
+test11 = Annotation.create(
+  author_id: 7,
+  track_id: 2,
+  body: "ALOT of nerve",
+  start_idx: 130,
+  end_idx: 172,
+  parent_id: 8
+)
+
+test12 = Annotation.create(
   author_id: 7,
   track_id: 4,
-  body: "LOVELOVELOVE THIS SONG",
+  body: "Good morning! Rise and shine",
   start_idx: 0,
-  end_idx: 7,
+  end_idx: 9,
   parent_id: 1
 
 )
 
-comment1 = TrackComment.create(
-  id: 4,
-  author_id: 4,
-  track_id: 1,
-  body: "Gambino will turn around if she tells him to but as of now he's lonely and thinks about her",
-  start_idx: 297,
-  end_idx: 331,
-  parent_id: 12
+test13 = Annotation.create(
+ author_id: 7,
+ track_id: 4,
+ body: "Kanye Loves Kanye",
+ start_idx: 37,
+ end_idx: 84,
+ parent_id: 3
+
 )
 
 comment1 = TrackComment.create(
-  id: 1,
   author_id: 1,
   track_id: 1,
   body: "Have ya'll seen Atlanta yet?!"
 )
 
 comment2 = TrackComment.create(
-  id: 1,
   author_id: 2,
   track_id: 1,
   body: "It was awesome! Childish Gambino is the best!"
 )
 
 comment3 = TrackComment.create(
-  id: 1,
   author_id: 3,
   track_id: 1,
   body: "Who are the 5 best rappers alive?"
 )
 
 comment4 = TrackComment.create(
-  id: 1,
   author_id: 4,
   track_id: 1,
   body: "Bino, Bino, Bino, Bino, and Bino! Cause he spits hot fire!"
 )
 
 comment5 = TrackComment.create(
-id: 1,
 author_id: 5,
 track_id: 2,
 body: "I like this song"
 )
 
 comment6 = TrackComment.create(
-id: 1,
 author_id: 6,
-track_id: 1,
+track_id: 2,
 body: "Who is Madeon?"
 )
 
 comment7 = TrackComment.create(
-id: 1,
 author_id: 5,
-track_id: 1,
+track_id: 2,
 body: "You must be slow...he's only the best EDM artist!"
+)
+
+comment8 = TrackComment.create(
+author_id: 6,
+track_id: 2,
+body: "ehhh..maybe.."
+)
+
+comment9 = TrackComment.create(
+author_id: 5,
+track_id: 2,
+body: "whose side are YOU on ]:<"
 )
