@@ -63,7 +63,7 @@ class Annotation extends React.Component {
             <label className="annot-body">Body: &nbsp;&nbsp;
               <textarea type="text"
                 className="annot-input"
-                value={this.state.body}
+                value=""
                 onChange={this.update("body")} ></textarea>
             </label>
             <br/>
