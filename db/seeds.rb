@@ -144,7 +144,7 @@ Lately, I felt the chance that
 Maybe, you could become my baby
 If you just tell me whose side you’re on",
   cover_art: "http://images.genius.com/61213e6f948dbec9e6f50f261e018b39.1000x1000x1.png",
-  youtube_url: "https://youtu.be/xp0NOjZlNlo"
+  youtube_url: "https://player.vimeo.com/video/147818567"
 )
 
 all_of_me = Track.create(
@@ -347,7 +347,7 @@ You can’t be hard on yourself for it, these are the cards you were given so yo
 
 That’s what happening with me, it’s like “God, I’m giving it all I’ve got, sometimes I’m weak and I’m going to do it.” And it’s like I’m not giving myself grace, I’m just like understanding that’s how it is",
   cover_art: "http://images.genius.com/626766c70d96b981e035d97af83e3516.1000x1000x1.jpg",
-  youtube_url: "https://youtu.be/Ca1i6DZC3iY"
+  youtube_url: "http://vevo.ly/GFYIPl"
 )
 
 black_friday = Track.create(
@@ -396,7 +396,7 @@ You're a sky full of stars
 Such heavenly view
 You're such a heavenly view (yeah, yeah, yeah, yeah)",
   cover_art: "https://images.genius.com/bed060b37dec8fa4eee79aad0784076e.1000x1000x1.jpg",
-  youtube_url: "https://youtu.be/VPRjCeoBqrI"
+  youtube_url: "https://player.vimeo.com/video/111166101"
 )
 
 test1 = Annotation.create(
