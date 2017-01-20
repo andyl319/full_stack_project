@@ -50,6 +50,9 @@ class Header extends React.Component {
           <Link to="/" className="logo">DECIPHER</Link>
           {greeting}
         </div>
+        <div className="splash">
+          'DECIPHER' LYRICS FROM YOUR FAVORITE SONGS!
+        </div>
         <div className="navbar">
           <Link className="navbar-link" to="/">HOME</Link>
           <Link className="navbar-link" to="/all">ALL TRACKS</Link>

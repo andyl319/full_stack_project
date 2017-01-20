@@ -56,6 +56,19 @@
   cursor: pointer;
 }
 
+.splash{
+  font-stretch: extra-expanded;
+  display: flex;
+  background-color: black;
+  min-width: 98%;
+  color: #2ab1f9;
+  justify-content: center;
+  min-height: 150px;
+  font-family: sans-serif;
+  font-family: monaco;
+  font-size: 28px;
+  line-height: 150px;
+}
 .navbar{
   display: flex;
   background-color: black;
