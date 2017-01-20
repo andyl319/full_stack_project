@@ -7,7 +7,6 @@ import {selectAllAnnotations} from '../../reducers/selectors';
 const mapStateToProps = (state) => ({
   track: state.track,
   currentUser: state.session.currentUser,
-  annotations: selectAllAnnotations(state)
 });
 
 const mapDispatchToProps = dispatch => ({
