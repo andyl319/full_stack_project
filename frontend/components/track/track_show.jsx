@@ -45,8 +45,10 @@ class TrackShow extends React.Component {
     e.preventDefault();
     let selectedAnnotation ={};
     if(this.props.track){
+      this.props.track.annotations.slice();
       this.props.track.annotations.forEach(annot => {
-        if (annot.parent_id === parseInt(e.target.id)){
+
+        if (annot && annot.parent_id === parseInt(e.target.id)){
           selectedAnnotation = annot;
           return;
         }
@@ -186,6 +188,7 @@ class TrackShow extends React.Component {
               selectedAnnotation={this.state.selectedAnnotation}
               resetState={this.resetState}/>
           </div>
+          {children}
       </div>
 
     );

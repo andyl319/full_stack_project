@@ -14,11 +14,10 @@ export const createAnnotation = annotation => dispatch => (
   })
 );
 
-export const receiveAllAnnotations = (annotations) => {
-  return {
+export const receiveAllAnnotations = (annotations) => ({
   type: RECEIVE_ALL_ANNOTATIONS,
   annotations
-};};
+});
 
 export const requestAllAnnotations = (id) => dispatch => {
   return APIUtil.fetchAllAnnotations(id)
