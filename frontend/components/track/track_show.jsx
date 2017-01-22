@@ -177,6 +177,7 @@ class TrackShow extends React.Component {
             <span className="track-show-album">Album: {track.album}</span>
             <span className="track-show-artist">{track.artist}</span>
             <span className="track-show-description">{track.description}</span>
+            <span className="instructions">*Highlight a line of text to start decipher annotation!</span>
             <span className="track-show-lyrics" onMouseUp={this.showAnnotationButton}>
               {this.formattedLyrics()}
             </span>
