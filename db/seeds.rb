@@ -404,7 +404,7 @@ you_should = Track.create(
   title: "You Should",
   artist: "are we theRe yet?",
   album: "no longeR found",
-  description: "You should is the 6'th album in are we theRe yet's
+  description: "You should is the 6'th track in are we theRe yet's
   2'nd album entitled 'no longeR found'.",
   lyrics: "[Hook] (alicia renee)
 I don't need you babe
