@@ -350,7 +350,7 @@ That’s what happening with me, it’s like “God, I’m giving it all I’ve 
   youtube_url: "http://vevo.ly/GFYIPl"
 )
 
-black_friday = Track.create(
+sky_full = Track.create(
   user_id: 3,
   title: "A Sky Full of Stars",
   artist: "Coldplay",
@@ -398,6 +398,68 @@ You're such a heavenly view (yeah, yeah, yeah, yeah)",
   cover_art: "https://images.genius.com/bed060b37dec8fa4eee79aad0784076e.1000x1000x1.jpg",
   youtube_url: "https://player.vimeo.com/video/111166101"
 )
+
+you_should = Track.create(
+  user_id: 3,
+  title: "You Should",
+  artist: "are we theRe yet?",
+  album: "no longeR found",
+  description: "You should is the 6'th album in are we theRe yet's
+  2'nd album entitled 'no longeR found'.",
+  lyrics: "[Hook] (alicia renee)
+I don't need you babe
+I just love you.. baby
+I'll get over you babe
+It's a livid place
+I'm just saying....
+I just think that you should know...
+I'm just saying....
+I just think that you should know...
+
+[Verse] (teddy h)
+Being the nice guy is hard,
+like over cooked chicken
+Every letter I ever written,
+sickens me, to think what was I thinking
+In The End I just wanted to walk in a Park with you,
+like Linkin
+Double shot of Jager, and a pitcher of Weisse Versas what I'm drinkin
+I'm in love with a bartender,
+coz I don't go to strip clubs
+Junk in the trunk? Nah she foine,
+so her trunk got 6 subs
+No amount of flowers can ever represent what you should deserve
+But I've died trying,
+like taking a math test with no curve
+Heh…. S*** A***…. no curves
+Every lyric had thought behind it,
+I hope you listen to the words
+Being rejected is nothing new to me,
+the feeling should be in a thrift store
+My nerves gone cold,
+so you can't herp-me (hurt me)... lip sore
+I don't like to get in fights,
+but I won't let anyone disrespect you
+I might get knocked out like Pacquaio,
+but I don't expect to
+They told me money could never buy happiness,
+but I doubt that
+Coz of the smile on my face at Big John's,
+now Siri… route that...
+
+[Hook] (alicia renee)
+I don't need you babe
+I just love you.. baby
+I'll get over you babe
+It's a livid place
+I'm just saying....
+I just think that you should know...
+I'm just saying....
+I just think that you should know...",
+  cover_art: "https://scontent.fsnc1-3.fna.fbcdn.net/v/t1.0-0/p526x296/16195360_10212038055091054_6897706909469493402_n.jpg?oh=dbdfd489f63527b18842b8c4511ddcd0&oe=5916D328",
+  youtube_url: "https://soundcloud.com/teddyhontiveros/teddy-hontiveros-you-should"
+)
+
 
 test1 = Annotation.create(
   author_id: 1,

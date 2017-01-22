@@ -20,6 +20,11 @@
   min-width: 100%;
 }
 
+.track-show-item > .cover-art{
+  filter: brightness(75%);
+
+}
+
 .track-show-title{
   display: block;
   position: absolute;
@@ -63,7 +68,7 @@
   left: 50px;
   font-size: 16px;
   top: 300px;
-  
+
 }
 
 .youtube{
