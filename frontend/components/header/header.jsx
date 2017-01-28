@@ -53,6 +53,9 @@ class Header extends React.Component {
         <div className="splash">
           'DECIPHER' LYRICS FROM YOUR FAVORITE SONGS!
         </div>
+        <div className="splash-description">
+          Just highlight one line of text and click the button to annotate!
+        </div>
         <div className="navbar">
           <Link className="navbar-link" to="/">HOME</Link>
           <Link className="navbar-link" to="/all">ALL TRACKS</Link>
