@@ -65,10 +65,23 @@
   justify-content: center;
   min-height: 150px;
   font-family: sans-serif;
-  font-family: monaco;
   font-size: 28px;
   line-height: 150px;
 }
+
+.splash-description{
+  font-stretch: extra-expanded;
+  display: flex;
+  background-color: black;
+  min-width: 98%;
+  color: #2ab1f9;
+  justify-content: center;
+  min-height: 50px;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1px;
+}
+
 .navbar{
   display: flex;
   background-color: black;
