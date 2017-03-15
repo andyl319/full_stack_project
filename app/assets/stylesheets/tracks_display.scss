@@ -1,6 +1,7 @@
 .track-display{
   display: block;
   float: left;
+  
 }
 
 .track-display-list{
@@ -8,6 +9,7 @@
 }
 
 .cover-art{
+  display: block;
   position: relative;
   z-index: -1;
   max-width: 100%;
@@ -36,7 +38,7 @@
   display: block;
   position: absolute;
   background-color: black;
-  color: #cccccc;
+  color: white;
   padding: 20px;
   top: 97%;
   list-style: none;
@@ -44,18 +46,8 @@
 }
 
 .track-display-detail > li{
-  padding-bottom: 15px;
-}
-
-.track-display-id{
   display: block;
-  position: absolute;
-  background-color: black;
-  font-size: 16px;
-  color: #2ab1f9;
-  float: left;
-  top: -13px;
-  padding: 1%;
+  padding-bottom: 15px;
 }
 
 .track-display-title{

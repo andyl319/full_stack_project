@@ -1,6 +1,6 @@
 
 
-.track-display{
+.track-show-display{
   display: block;
   position: relative;
   min-width: 100%;
@@ -12,6 +12,7 @@
 }
 
 .cover-art{
+
   display: block;
   position: absolute;
   top: -13px;
@@ -21,14 +22,15 @@
 }
 
 .track-show-item > .cover-art{
-  filter: brightness(75%);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) );
+  filter: brightness(25%);
 
 }
 
 .track-show-title{
   display: block;
   position: absolute;
-  color: #2ab1f9;
+  color: #96B3DB;
   font-size: 50px;
   top: 50px;
   left: 50px;
@@ -46,7 +48,7 @@
 .track-show-album{
   display: block;
   position: absolute;
-  color: #ffff64;
+  color: #FFDEA7;
   font-size: 18px;
   top: 175px;
   left: 50px;
@@ -55,7 +57,7 @@
 .track-show-description{
   display: block;
   position: absolute;
-  color: #ffff64;
+  color: #FFDEA7;
   font-size: 18px;
   top: 220px;
   left: 50px;

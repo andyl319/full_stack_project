@@ -50,11 +50,13 @@ class Header extends React.Component {
           <Link to="/" className="logo">DECIPHER</Link>
           {greeting}
         </div>
-        <div className="splash">
-          'DECIPHER' LYRICS FROM YOUR FAVORITE SONGS!
-        </div>
-        <div className="splash-description">
-          Just highlight one line of text and click the button to annotate!
+        <div className="splash-container">
+          <div className="splash">
+            ANNOTATE LYRICS FROM YOUR FAVORITE SONGS!
+          </div>
+          <div className="splash">
+            Just highlight one line of text and click the button to annotate!
+          </div>
         </div>
         <div className="navbar">
           <Link className="navbar-link" to="/">HOME</Link>

@@ -6,7 +6,6 @@ const TrackDisplayItem = ({track, router}) => {
     <span className="track-display-item">
       <Link to={`/tracks/${track.id}`}>
         <img src={track.cover_art} alt={track.title} className="cover-art" />
-        <li className="track-display-id">{track.id}</li>
         <ul className="track-display-detail">
           <li className="track-display-title">{track.title}</li>
           <li className="track-display-artist">{track.artist}</li>

@@ -169,7 +169,7 @@ class TrackShow extends React.Component {
     let lineId = 0;
     return (
       <div>
-        <div className="track-display">
+        <div className="track-show-display">
           <p className="track-show-item">
             <img src={track.cover_art} alt={track.title} className="cover-art" />
             <iframe className="youtube" width="420" height="315" src={track.youtube_url}></iframe>
