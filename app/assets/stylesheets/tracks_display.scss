@@ -17,6 +17,18 @@
   min-width: 100%;
   max-width: 100%;
 }
+.track-display-detail{
+  display: block;
+  position: relative;
+  object-fit: cover;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  top: 97%;
+  list-style: none;
+  min-height: 69%;
+  max-height: 69%;
+}
 
 
 .track-display-item{
@@ -37,17 +49,6 @@
   opacity: 0.7;
 }
 
-.track-display-detail{
-  display: block;
-  position: absolute;
-  background-color: black;
-  color: white;
-  padding: 20px;
-  top: 97%;
-  list-style: none;
-  min-height: 69%;
-  max-height: 69%;
-}
 
 .track-display-detail > li{
   display: block;
