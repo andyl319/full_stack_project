@@ -81,7 +81,7 @@ class Annotation extends React.Component {
             <br/>
             <button className="annot-cancel"
               onClick={this.handleCancel}>
-              Cancel
+              CANCEL
             </button>
             <br/>
             <input className="annot-submit" type="submit" value="SUBMIT" />

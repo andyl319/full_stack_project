@@ -1,5 +1,6 @@
 import React from 'react';
 import AnnotationContainer from '../annotation/annotation_container';
+import TrackCommentContainer from '../track_comments/track_comments_container';
 
 class TrackShow extends React.Component {
   constructor(props){
@@ -19,7 +20,7 @@ class TrackShow extends React.Component {
     this.handleAnnotationClick = this.handleAnnotationClick.bind(this);
   }
 
-  componentDidMount(){
+  componentWillMount(){
     this.props.requestTrack(this.props.params.id);
     this.props.requestAllAnnotations(this.props.params.id);
   }
@@ -163,7 +164,6 @@ class TrackShow extends React.Component {
   }
 
   render(){
-
     const {track, children} = this.props;
     const lyrics = track.lyrics || "";
     let lineId = 0;
@@ -180,9 +180,9 @@ class TrackShow extends React.Component {
             <span className="instructions">*Highlight a line of text to start decipher annotation!</span>
             <span className="track-show-lyrics" onMouseUp={this.showAnnotationButton}>
               {this.formattedLyrics()}
+              {children}
             </span>
           </p>
-
         </div>
         <div className="annotation-container">
             <AnnotationContainer
@@ -199,7 +199,7 @@ class TrackShow extends React.Component {
               resetState={this.resetState}/>
 
           </div>
-          {children}
+
       </div>
 
     );
