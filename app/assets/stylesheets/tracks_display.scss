@@ -1,7 +1,7 @@
 .track-display{
   display: block;
   float: left;
-  
+
 }
 
 .track-display-list{
@@ -20,6 +20,7 @@
   display: block;
   position: relative;
   list-style: none;
+  min-width: 27.3%;
   max-width: 27.3%;
   float: left;
   margin-left: 3%;
