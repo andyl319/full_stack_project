@@ -5,8 +5,8 @@
   border: solid;
   border-color: black;
   background-color: black;
-  min-width: 85%;
-  max-width: 85%;
+  min-width: 95%;
+  max-width: 95%;
   top: 150px;
   box-shadow: 0px 3px 10px #000000;
 }
@@ -67,9 +67,11 @@
   top: 20px;
   background-color: #565656;
   color: #cccccc;
-  min-width: 400px;
+  min-width: 75%;
+  max-width: 75%;
   min-height: 80px;
-  left: calc(45% - 200px);
+  margin: 0px;
+  left: 35px;
 }
 
 .comment-submit{
