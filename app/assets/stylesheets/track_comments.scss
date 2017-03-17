@@ -86,10 +86,12 @@
   color: #BBBBBB;
   background-color: black;
   border-color: #BBBBBB;
-  transition: background-color 0.6s;
+  transition: color 0.6s;
+  transition: border-color 0.3s;
 }
 
 .comment-submit:hover{
-  background-color: #333333;
+  color: #FFDEA7;
+  border-color: #FFDEA7;
   cursor: pointer;
 }
