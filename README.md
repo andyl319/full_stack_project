@@ -9,23 +9,18 @@ DECIPHER
 ##Features
 
 Decipher allows for users to signup for added functionality or a guest login to quickly check the site out.<br>
-![auth-screenshot]
-[auth-screenshot]: ./docs/screenshots/auth-pic.png
+![auth-screenshot] (./docs/screenshots/auth-pic.png)
 
 Decipher allows users to view created annotations of lyrics or annotate a lyric line if the user is logged in.<br>
-![annot-create-screenshot]
-[annot-create-screenshot]: ./docs/screenshots/annot-create.png
+![annot-create-screenshot] (./docs/screenshots/annot-create.png)
 
-![annot-read-screenshot]
-[annot-read-screenshot]: ./docs/screenshots/annot-read.png
+![annot-read-screenshot] (./docs/screenshots/annot-read.png)
 
 Decipher allows a user to post comments on each track.<br>
-![comment-screenshot]
-[comment-screenshot]: ./docs/screenshots/comments.png
+![comment-screenshot] (./docs/screenshots/comments.png)
 
 Decipher lets you upvote or downvote every lyric annotation.
-![upvote-screenshot]
-[upvote-screenshot]: ./docs/screenshots/upvotes.png
+![upvote-screenshot] (./docs/screenshots/upvotes.png)
 
 Decipher keeps your password data safe.
 ```ruby
