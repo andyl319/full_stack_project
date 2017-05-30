@@ -23,6 +23,7 @@ class TrackShow extends React.Component {
   componentWillMount(){
     this.props.requestTrack(this.props.params.id);
     this.props.requestAllAnnotations(this.props.params.id);
+    $(this).scrollTop(0);
   }
 
   resetState(){
