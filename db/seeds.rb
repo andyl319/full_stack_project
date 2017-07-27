@@ -238,7 +238,7 @@ I feel it coming, babe
 I feel it coming, babe
 I feel it coming, babe",
   cover_art: "http://images.genius.com/02d44f528e2f14794c9ac02eeb6268f3.1000x1000x1.jpg",
-  youtube_url: "https://player.vimeo.com/video/216382058"
+  youtube_url: "https://player.vimeo.com/video/220053268"
 )
 
 selena = Track.create(
