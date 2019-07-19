@@ -1,6 +1,6 @@
 DECIPHER
 
-[LIVE] (http://www.decipher.site/)
+[LIVE] (http://genius-decipher.herokuapp.com/#/)
 
 ####Decipher lets you annotate your favorite songs! Be a part of a global community that, together will decipher even the most obscure lyrics.
 #####Sign up to allow you to post comments and annotate lyrics.
